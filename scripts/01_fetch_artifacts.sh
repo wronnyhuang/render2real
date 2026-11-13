@@ -1,12 +1,19 @@
 #!/bin/bash
-# Download the pre-built training pairs (render side), trained weights and eval outputs from the shared Drive folder.
-# usage: scripts/01_fetch_artifacts.sh <drive-folder-url-or-id>   (see ARTIFACTS.md for the layout)
+# Download the render2real artifact bundles from the public Google Drive folder BY FILE ID (no sign-in needed) and extract them at the repo root.
+# usage: bash scripts/01_fetch_artifacts.sh [bundle.tar ...]     (default: every bundle in scripts/artifacts.tsv; see ARTIFACTS.md)
 set -e; cd "$(dirname "$0")/.."
+command -v gdown >/dev/null || pip install -q gdown==5.2.0
 mkdir -p artifacts/render2real
-if ! ls artifacts/render2real/*.tar >/dev/null 2>&1; then
-  # the Drive folder is access-restricted: sign in to Google in a browser and download the .tar files into artifacts/render2real/ yourself,
-  # or, if the folder owner enabled link sharing, this works unattended:
-  pip install -q gdown==5.2.0 && gdown --folder "$1" -O artifacts
-fi
-for t in artifacts/render2real/*.tar; do [ -f "$t" ] && tar -xf "$t"; done   # unpacks into ./data ./fast/weights ./wan/lora ...
-echo "next: real.mp4 targets are NOT redistributed -> scripts/02_data.sh --targets-only (needs Seamless Interaction, DATA.md)"
+want=("$@")
+while IFS=$'\t' read -r name id size; do
+  [ -n "$name" ] || continue
+  if [ ${#want[@]} -gt 0 ] && [[ ! " ${want[*]} " == *" $name "* ]]; then continue; fi
+  f=artifacts/render2real/$name
+  if [ "$(stat -c %s "$f" 2>/dev/null)" != "$size" ]; then
+    echo "downloading $name ($((size/1000000)) MB)"; rm -f "$f"
+    gdown "$id" -O "$f"
+    [ "$(stat -c %s "$f")" = "$size" ] || { echo "size mismatch for $name (Drive quota page? retry later, or open the folder link in ARTIFACTS.md)"; exit 1; }
+  fi
+  tar -xf "$f" && echo "extracted $name"
+done < scripts/artifacts.tsv
+echo "fetch done. Real-person videos/audio are NOT redistributed: see DATA.md"

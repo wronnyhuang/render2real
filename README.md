@@ -1,5 +1,34 @@
 # render2real — stylised 3D render → photoreal video
 
+## Quick Start
+
+**Requirements:** Linux, an NVIDIA GPU with ≥ 12 GB for inference (24–32 GB to train; tested on RTX 5090 32 GB and A5000 24 GB), CUDA 12.8 driver, Python 3.12, `ffmpeg`, ~5 GB free disk. ~1 GB of Hugging Face base models download on first setup.
+
+```bash
+git clone https://github.com/wronnyhuang/render2real && cd render2real && python3 -m venv .venv && . .venv/bin/activate   # 1. clone + clean venv
+bash scripts/00_setup.sh                          # 2. pinned torch 2.8.0+cu128 + deps, base models (HF), MediaPipe task files
+bash scripts/01_fetch_artifacts.sh                # 3. public Google Drive bundles by file id (weights, render clips, eval outputs; ARTIFACTS.md)
+. scripts/env.sh && cd fast/code && python infer.py --kind turbo --ckpt ../weights/turbo_lora.pt --variant turbo_lora \
+    --data $DATA --drive $DRIVE --outroot $WORK/fast/out --only heldout && cd ../..   # 4. sample inference: stylised render -> photoreal video in fast/out/turbo_lora/
+python3 -m venv eval/venv && eval/venv/bin/pip install -r requirements-eval.txt && bash scripts/05_eval.sh turbo_lora   # 5. eval (needs real targets + judge, see below)
+```
+Step 4 reads only the finished `render.mp4` clips from the artifacts (no real-person footage needed). Step 5 compares against the real clips, which are
+not redistributed: first re-cut them from your own Meta Seamless Interaction copy with `bash scripts/02_data.sh --targets-only` (`DATA.md`, `SEAMLESS_ROOT=/path/to/seamless-interaction`).
+The pre-computed per-clip results of the reported runs are already in `eval/results/*.json` and in the `r2r_eval_outputs.tar` bundle.
+
+### API keys / environment
+No key is needed for steps 1–4 (base models are public on Hugging Face; set `HF_TOKEN` only if you hit rate limits: https://huggingface.co/settings/tokens).
+The realism **judge** (`eval/judge.py`, step 5) shells out to the [Claude Code CLI](https://docs.claude.com/en/docs/claude-code) (`claude -p`):
+
+| variable | meaning | where to get it |
+|---|---|---|
+| `ANTHROPIC_API_KEY` (or run `claude login` once) | credentials for the judge | https://console.anthropic.com/settings/keys |
+| `JUDGE_CLAUDE` | path to the `claude` binary (default `/usr/local/bin/claude`) | `npm i -g @anthropic-ai/claude-code` |
+| `JUDGE_MODEL` | judge model alias (default `sonnet`) | – |
+| `SEAMLESS_ROOT` | your copy of Meta Seamless Interaction (only for step 5 / rebuilding data) | https://github.com/facebookresearch/seamless_interaction |
+
+Metrics (CPU) run without any key; to skip the judge, run `eval/metrics.py` directly (see `scripts/05_eval.sh`).
+
 Turns a low-poly / stylised 3D character render into a photoreal person that keeps the render's pose, head turn, blinks, mouth
 shapes and timing. Two model families were built and compared on the same data:
 
@@ -44,7 +73,7 @@ All paths come from `scripts/env.sh` (override with env vars). No hard-coded mac
 ```bash
 . scripts/env.sh
 bash scripts/00_setup.sh                            # pinned deps + base models + MediaPipe task files
-bash scripts/01_fetch_artifacts.sh <DRIVE_FOLDER>   # optional: prebuilt pairs (render side), weights, eval outputs (ARTIFACTS.md)
+bash scripts/01_fetch_artifacts.sh                  # prebuilt pairs (render side), weights, eval outputs (ARTIFACTS.md)
 bash scripts/02_data.sh --targets-only              # cut real.mp4 crops from YOUR Seamless Interaction copy (DATA.md) ...
 #   or: bash scripts/02_data.sh                       # ... full rebuild (Blender + MediaPipe + Claude CLI for the scene-look call)
 bash scripts/03_train.sh                            # turbo_lora (72 min on a 5090)
@@ -57,4 +86,14 @@ for the exact inference commands used). `baselines/` holds the zero-shot baselin
 Layout: `fast/` (model + trainers + report), `wan/` (Wan scripts, prompts, latency), `data/` (pipeline `src/`, manifest, per-clip `pairs/*/meta.json`, QC), `eval/` (metrics, judge, page builder, results), `baselines/`, `scripts/`.
 Limits of reproducibility: the judge uses `claude -p`; swap `call()` in `eval/judge.py` for any vision LLM. Rebuilding the render side needs Blender with `bpy`; the artifacts contain the finished renders so you can skip it.
 
-See `DATA.md` for dataset licences and attribution, `ARTIFACTS.md` for the downloadable files.
+See `DATA.md` for dataset licences and attribution.
+
+## Downloads (public Google Drive)
+All bundles: https://drive.google.com/drive/folders/1G7jieF9XQvVJ9VosnpVx-EMzMBytcfAg · this repo's folder: see the per-file links, sizes and ids in [`ARTIFACTS.md`](ARTIFACTS.md).
+
+| bundle | size | link |
+|---|---|---|
+| `r2r_weights_fast.tar` | 177.0 MB | https://drive.google.com/file/d/1kol13rZYwwsYAJe3em6n2nTxFLm5M6nP/view |
+| `r2r_weights_wan_lora.tar` | 41.8 MB | https://drive.google.com/file/d/1xUkBqln4F7k4rwU0b1JkGbJud-jCMiMS/view |
+| `r2r_training_pairs_render_side.tar` | 42.8 MB | https://drive.google.com/file/d/1kb1b2wOh_f2vJYDeTl1X7yPg9fZUhbxj/view |
+| `r2r_eval_outputs.tar` | 170.9 MB | https://drive.google.com/file/d/1Sm1RZ9SAFmju8gpRCspOf6hRMSUl0BUE/view |
