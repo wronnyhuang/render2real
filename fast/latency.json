@@ -1,0 +1,245 @@
+{
+ "gpu": "NVIDIA GeForce RTX 5090 (RunPod community pod)",
+ "torch": "2.8.0+cu128",
+ "method": "batch 1, steady state: 15 warmup + 60 timed iterations, time.perf_counter around uint8 HxWx3 host frame -> GPU -> model (incl. VAE/TAESD encode+decode) -> uint8 host frame, cuda synchronized",
+ "rows": [
+  {
+   "variant": "unet_l1lpips",
+   "res": 256,
+   "ms_per_frame": 4.63,
+   "fps": 215.8,
+   "p90_ms": 4.66,
+   "measured": true,
+   "note": "fp32"
+  },
+  {
+   "variant": "unet_l1lpips",
+   "res": 384,
+   "ms_per_frame": 8.06,
+   "fps": 124.1,
+   "p90_ms": 8.08,
+   "measured": true,
+   "note": "fp32"
+  },
+  {
+   "variant": "unet_l1lpips",
+   "res": 512,
+   "ms_per_frame": 12.96,
+   "fps": 77.2,
+   "p90_ms": 12.99,
+   "measured": true,
+   "note": "fp32"
+  },
+  {
+   "variant": "unet_l1lpips",
+   "res": 256,
+   "ms_per_frame": 3.69,
+   "fps": 271.2,
+   "p90_ms": 3.69,
+   "measured": true,
+   "note": "fp16 channels_last"
+  },
+  {
+   "variant": "unet_l1lpips",
+   "res": 384,
+   "ms_per_frame": 6.8,
+   "fps": 147.0,
+   "p90_ms": 6.82,
+   "measured": true,
+   "note": "fp16 channels_last"
+  },
+  {
+   "variant": "unet_l1lpips",
+   "res": 512,
+   "ms_per_frame": 10.71,
+   "fps": 93.4,
+   "p90_ms": 10.76,
+   "measured": true,
+   "note": "fp16 channels_last"
+  },
+  {
+   "variant": "unet_l1lpips",
+   "res": 384,
+   "ms_per_frame": 2.7,
+   "fps": 370.6,
+   "p90_ms": 2.74,
+   "measured": true,
+   "note": "fp16 + torch.compile"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 256,
+   "ms_per_frame": 32.46,
+   "fps": 30.8,
+   "p90_ms": 33.74,
+   "measured": true,
+   "note": "fp32 (tf32), full SD-VAE w/ skips, LoRA merged"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 384,
+   "ms_per_frame": 55.37,
+   "fps": 18.1,
+   "p90_ms": 55.4,
+   "measured": true,
+   "note": "fp32 (tf32), full SD-VAE w/ skips, LoRA merged"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 512,
+   "ms_per_frame": 92.05,
+   "fps": 10.9,
+   "p90_ms": 92.09,
+   "measured": true,
+   "note": "fp32 (tf32), full SD-VAE w/ skips, LoRA merged"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 256,
+   "ms_per_frame": 34.14,
+   "fps": 29.3,
+   "p90_ms": 35.82,
+   "measured": true,
+   "note": "fp16, full SD-VAE w/ skips, LoRA merged"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 384,
+   "ms_per_frame": 43.73,
+   "fps": 22.9,
+   "p90_ms": 43.97,
+   "measured": true,
+   "note": "fp16, full SD-VAE w/ skips, LoRA merged"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 512,
+   "ms_per_frame": 63.29,
+   "fps": 15.8,
+   "p90_ms": 63.35,
+   "measured": true,
+   "note": "fp16, full SD-VAE w/ skips, LoRA merged"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 384,
+   "ms_per_frame": 21.3,
+   "fps": 46.9,
+   "p90_ms": 21.4,
+   "measured": true,
+   "note": "fp16 + torch.compile (unet, vae enc, vae dec), full SD-VAE w/ skips"
+  },
+  {
+   "variant": "turbo_lora+TAESD",
+   "res": 256,
+   "ms_per_frame": 12.85,
+   "fps": 77.8,
+   "p90_ms": 12.94,
+   "measured": true,
+   "note": "fp16, TAESD enc+dec (no skips), unet compiled=1; architecture latency only, NOT a trained variant"
+  },
+  {
+   "variant": "turbo_lora+TAESD",
+   "res": 384,
+   "ms_per_frame": 14.07,
+   "fps": 71.1,
+   "p90_ms": 14.18,
+   "measured": true,
+   "note": "fp16, TAESD enc+dec (no skips), unet compiled=1; architecture latency only, NOT a trained variant"
+  },
+  {
+   "variant": "turbo_lora+TAESD",
+   "res": 512,
+   "ms_per_frame": 15.58,
+   "fps": 64.2,
+   "p90_ms": 15.73,
+   "measured": true,
+   "note": "fp16, TAESD enc+dec (no skips), unet compiled=1; architecture latency only, NOT a trained variant"
+  },
+  {
+   "variant": "sd-turbo UNet alone",
+   "res": 384,
+   "ms_per_frame": 9.46,
+   "fps": 105.7,
+   "measured": true,
+   "note": "fp16, compiled=1"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 256,
+   "ms_per_frame": 38.48,
+   "fps": 26.0,
+   "p90_ms": 38.75,
+   "measured": true,
+   "note": "fp32 (tf32), full SD-VAE w/ skips, LoRA merged (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 384,
+   "ms_per_frame": 67.18,
+   "fps": 14.9,
+   "p90_ms": 67.23,
+   "measured": true,
+   "note": "fp32 (tf32), full SD-VAE w/ skips, LoRA merged (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 512,
+   "ms_per_frame": 114.98,
+   "fps": 8.7,
+   "p90_ms": 115.03,
+   "measured": true,
+   "note": "fp32 (tf32), full SD-VAE w/ skips, LoRA merged (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 256,
+   "ms_per_frame": 38.46,
+   "fps": 26.0,
+   "p90_ms": 38.67,
+   "measured": true,
+   "note": "fp16, full SD-VAE w/ skips, LoRA merged (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 384,
+   "ms_per_frame": 52.93,
+   "fps": 18.9,
+   "p90_ms": 53.1,
+   "measured": true,
+   "note": "fp16, full SD-VAE w/ skips, LoRA merged (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 512,
+   "ms_per_frame": 80.11,
+   "fps": 12.5,
+   "p90_ms": 80.21,
+   "measured": true,
+   "note": "fp16, full SD-VAE w/ skips, LoRA merged (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_temporal",
+   "res": 384,
+   "ms_per_frame": 27.55,
+   "fps": 36.3,
+   "p90_ms": 27.61,
+   "measured": true,
+   "note": "fp16 + torch.compile (unet, vae enc, vae dec), full SD-VAE w/ skips (temporal step includes an extra SD-VAE encode of the previous output)"
+  },
+  {
+   "variant": "turbo_lora_ema",
+   "res": 384,
+   "measured": false,
+   "estimate": "same as turbo_lora (+ one 4x48x48 latent lerp, <0.1 ms)",
+   "note": "estimated"
+  }
+ ],
+ "notes": [
+  "All rows measured on ONE RunPod RTX 5090 32GB (community, driver 620, torch 2.8 cu128) unless measured:false.",
+  "End-to-end per frame: uint8 384x384 host frame -> H2D -> encode -> UNet (1 step, t=999) -> decode -> uint8 D2H; batch 1, median of 60 after 15 warmup.",
+  "turbo_lora+TAESD rows: TAESD encoder/decoder swapped in for the skip-connected SD-VAE with the SAME turbo_lora UNet; latency of the architecture only. That checkpoint was trained with the SD-VAE + skips, so TAESD output quality is NOT valid until TAESD (or its decoder) is fine-tuned with the LoRA.",
+  "fp16 without compile is launch-overhead bound (fp16 at 256 is no faster than fp32); torch.compile gives the big win.",
+  "Not measured: TensorRT, CUDA graphs, int8, other GPUs. Estimate for an RTX 4090: ~1.3-1.6x the 5090 times (not measured)."
+ ]
+}

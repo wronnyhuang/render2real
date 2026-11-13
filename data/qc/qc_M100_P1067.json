@@ -1,0 +1,19 @@
+{
+ "M100_P1067": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4653146415948868,
+  "render_face_width_frac": 0.45205359160900116,
+  "face_center_offset_real_minus_render": [
+   -0.00035939738154411316,
+   -0.006595253944396973
+  ],
+  "mouth_corr": 0.9723448734812028,
+  "best_lag": 0,
+  "best_corr": 0.9723448734812028
+ }
+}

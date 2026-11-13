@@ -1,0 +1,19 @@
+{
+ "M020_P0351": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4827320799231529,
+  "render_face_width_frac": 0.47431543469429016,
+  "face_center_offset_real_minus_render": [
+   -0.0014848187565803528,
+   -0.007504675537347794
+  ],
+  "mouth_corr": 0.7884693172139621,
+  "best_lag": 0,
+  "best_corr": 0.7884693172139621
+ }
+}

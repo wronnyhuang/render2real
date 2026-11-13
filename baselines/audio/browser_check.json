@@ -1,0 +1,79 @@
+{
+ "mobile": {
+  "overflowX": 0,
+  "videos": 43,
+  "buttons": 43,
+  "noaudio_tags": 0,
+  "fast_turbo_lora__M000_P0115": {
+   "button_box": {
+    "w": 163,
+    "h": 40
+   },
+   "button_hit_test": true,
+   "after_tap": {
+    "muted": false,
+    "paused": false,
+    "currentTime": 2.88,
+    "duration": 8,
+    "webkitAudioDecodedByteCount": 39679,
+    "webkitVideoDecodedByteCount": 149793,
+    "audioTracks": "n/a"
+   },
+   "currentTime_advance_1s": 0.99,
+   "audible_videos": [
+    "videos/fast_turbo_lora__M000_P0115.mp4"
+   ],
+   "button_label": "🔊 Sound on (tap to mute)"
+  },
+  "wan_lora_prompt_cv6__M023_P0370": {
+   "button_box": {
+    "w": 163,
+    "h": 40
+   },
+   "button_hit_test": true,
+   "after_tap": {
+    "muted": false,
+    "paused": false,
+    "currentTime": 2.92,
+    "duration": 8,
+    "webkitAudioDecodedByteCount": 39718,
+    "webkitVideoDecodedByteCount": 130332,
+    "audioTracks": "n/a"
+   },
+   "currentTime_advance_1s": 1.01,
+   "audible_videos": [
+    "videos/wan_lora_prompt_cv6__M023_P0370.mp4"
+   ],
+   "button_label": "🔊 Sound on (tap to mute)"
+  },
+  "fast_unet_l1lpips__muse_01": {
+   "button_box": {
+    "w": 163,
+    "h": 40
+   },
+   "button_hit_test": true,
+   "after_tap": {
+    "muted": false,
+    "paused": false,
+    "currentTime": 2.94,
+    "duration": 8,
+    "webkitAudioDecodedByteCount": 39869,
+    "webkitVideoDecodedByteCount": 126953,
+    "audioTracks": "n/a"
+   },
+   "currentTime_advance_1s": 1.01,
+   "audible_videos": [
+    "videos/fast_unet_l1lpips__muse_01.mp4"
+   ],
+   "button_label": "🔊 Sound on (tap to mute)"
+  },
+  "webaudio": {
+   "ctxState": "running",
+   "frames": 80,
+   "meanRms": 0,
+   "peakRms": 0,
+   "peakDb": -240
+  }
+ },
+ "desktop": {}
+}

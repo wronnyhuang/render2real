@@ -1,0 +1,19 @@
+{
+ "M029_P0410": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.46004272997379303,
+  "render_face_width_frac": 0.4563295841217041,
+  "face_center_offset_real_minus_render": [
+   0.00038930028676986694,
+   -0.011813461780548096
+  ],
+  "mouth_corr": 0.8814930252753801,
+  "best_lag": 0,
+  "best_corr": 0.8814930252753801
+ }
+}

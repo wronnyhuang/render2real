@@ -1,0 +1,74 @@
+{
+ "gpu": "NVIDIA GeForce RTX 4090",
+ "torch": "2.8.0+cu128",
+ "method": "same as render2real fast/code/latency.py: batch 1, 384x384, steady state 15 warmup + 60 timed iterations (median), time.perf_counter around uint8 HxWx3 host frame -> GPU -> VAE encode -> 1 UNet eval -> VAE decode -> uint8 host frame, cuda synchronized; fp16 weights + autocast fp16",
+ "rows": [
+  {
+   "variant": "base_sdturbo_img2img_1step",
+   "res": 384,
+   "ms_per_frame": 57.68,
+   "fps": 17.3,
+   "p90_ms": 60.68,
+   "warmup_s": 2.0,
+   "note": "fp16, eager; strength 0.5 (t=499); cost is identical for 0.25/0.75 (same graph)"
+  },
+  {
+   "variant": "base_sdturbo_img2img_1step",
+   "res": 384,
+   "ms_per_frame": 30.06,
+   "fps": 33.3,
+   "p90_ms": 30.63,
+   "warmup_s": 93.3,
+   "note": "fp16 + torch.compile (unet, vae enc, vae dec)"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 384,
+   "ms_per_frame": 60.76,
+   "fps": 16.5,
+   "p90_ms": 61.83,
+   "warmup_s": 1.0,
+   "note": "fp16, eager, full SD-VAE w/ skips, LoRA merged (render2real latency.py path)"
+  },
+  {
+   "variant": "turbo_lora",
+   "res": 384,
+   "ms_per_frame": 30.67,
+   "fps": 32.6,
+   "p90_ms": 34.4,
+   "warmup_s": 71.9,
+   "note": "fp16 + torch.compile (unet, vae enc, vae dec), full SD-VAE w/ skips, LoRA merged"
+  }
+ ],
+ "notes": [
+  "base_asft has the same graph as turbo_lora (LoRA merged, skip convs) so its latency equals turbo_lora.",
+  "Offline video inference counted UNet forwards with a hook: 840 batched forwards (batch 8) = 6720 samples = 6720 frames per variant, i.e. exactly 1 UNet evaluation per frame."
+ ],
+ "gpu_note": "RTX 4090 (RunPod SECURE, $0.89/h): no RTX 5090 was available on RunPod at creation (community + secure, two attempts). render2real turbo_lora numbers (21.3 ms compiled / 43.7 ms eager) were on a 5090; the rows here are both models re-measured on the SAME 4090.",
+ "infer_unet_eval_check": {
+  "base_s025": {
+   "frames": 6720,
+   "unet_forward_calls": 840,
+   "unet_samples": 6720,
+   "sec": 321.4
+  },
+  "base_s050": {
+   "frames": 6720,
+   "unet_forward_calls": 840,
+   "unet_samples": 6720,
+   "sec": 324.1
+  },
+  "base_s075": {
+   "frames": 6720,
+   "unet_forward_calls": 840,
+   "unet_samples": 6720,
+   "sec": 322.5
+  },
+  "base_asft": {
+   "frames": 6720,
+   "unet_forward_calls": 840,
+   "unet_samples": 6720,
+   "sec": 436.8
+  }
+ }
+}

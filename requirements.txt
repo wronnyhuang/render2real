@@ -1,0 +1,13 @@
+# GPU side (training + inference). Tested: Python 3.12, CUDA 12.8, RTX 5090 (32 GB) and RTX A5000 (24 GB).
+# Install torch first:  pip install torch==2.8.0 torchvision --index-url https://download.pytorch.org/whl/cu128
+diffusers==0.43.0
+peft==0.21.2
+transformers>=4.50
+accelerate
+lpips==0.1.4
+imageio
+imageio-ffmpeg
+opencv-python-headless==5.0.0.93
+numpy
+pillow
+huggingface_hub

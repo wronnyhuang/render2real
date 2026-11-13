@@ -1,0 +1,732 @@
+{
+ "track": "fast",
+ "variant": "turbo_lora_ema",
+ "model": "sonnet",
+ "made": "2026-11-12 15:18:34",
+ "clips": {
+  "M000_P0115": {
+   "clip": "M000_P0115",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 5,
+     "same_pose_any": 5,
+     "reason": "A is a clearly CG cartoon head; B is a photoreal man with natural skin and lighting, with roughly similar head tilt and talking mouth but not matching frame by frame (eyes closed in B frame 2, mouth shapes differ)."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 5,
+     "reason": "A looks like a real man on camera; B is an obvious CG avatar with a flat, game-like face. B roughly follows A's head tilt and mouth opening, but its eyes are open and its expressions differ, so the match is loose."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 6,
+    "real": 8,
+    "render": 1,
+    "reason": "X: a real-looking man, but the skin is smooth and waxy and the face looks slightly synthetic or blurred. Y: natural skin texture with age spots, wrinkles and an uneven collar, which reads as real footage. Z: an obvious 3D cartoon render with a flat-shaded face and a torn collar."
+   },
+   "split": "heldout"
+  },
+  "M001_P0115": {
+   "clip": "M001_P0115",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "A is a low-poly CG avatar with flat shading. B looks like a real older person on camera, though with some compression artifacts. B's head tilts and mouth shapes only loosely follow A's, and the identity differs."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 4,
+     "reason": "A shows a real-looking person with natural skin and hair; B is an obvious low-poly 3D cartoon avatar with only loosely similar head tilts and mouth openings."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "output",
+     "render"
+    ],
+    "real": 9,
+    "output": 5,
+    "render": 1,
+    "reason": "X: natural skin texture, consistent identity, lavalier mic, and realistic speech motion, so it looks like real footage. Y: plausible face but the identity shifts between frames (looks like a man, then a woman), and the shirt has vertical streak artifacts, so it looks AI-generated. Z: a clearly CG cartoon avatar with flat shading and a stylized face."
+   },
+   "split": "heldout"
+  },
+  "M002_P0116_trainsample": {
+   "clip": "M002_P0116_trainsample",
+   "error": "missing input or output",
+   "split": null
+  },
+  "M009_P0217": {
+   "clip": "M009_P0217",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "A is an obvious 3D render with bubble hair; B has realistic skin, hair and lighting. B follows A's blinks, gaze and head tilt closely, though it is a different person."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 7,
+     "reason": "A shows natural skin, hair and lighting like a real camera; B is an obvious CG avatar with blobby hair and smooth plastic skin, though it follows A's gaze, blinks and head tilt reasonably well."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 6,
+    "real": 9,
+    "render": 1,
+    "reason": "X: a realistic woman, but the hair is smooth and the skin slightly waxy, which suggests a synthetic face. Y: natural curly hair, skin texture and lighting, with only small artifacts. Z: an obvious 3D render, with blob-like hair and plastic skin."
+   },
+   "split": "heldout"
+  },
+  "M010_P0299A_trainsample": {
+   "clip": "M010_P0299A_trainsample",
+   "error": "missing input or output",
+   "split": null
+  },
+  "M023_P0370": {
+   "clip": "M023_P0370",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "A is a stylized 3D cartoon avatar; B is a photoreal man with natural skin, hair and compression, and it closely follows A's head tilts, gaze and open-mouth speech frame by frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 9,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A is a real photographic man with natural skin and hair; B is a flat-shaded 3D cartoon avatar that roughly follows A's head tilt and open mouth, but not exactly."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "render",
+     "real"
+    ],
+    "output": 8,
+    "render": 1,
+    "real": 9,
+    "reason": "X: natural skin, hair and lighting, slight softness, but a bit smooth and uniform. Y: clearly a CG cartoon 3D model with flat shading. Z: natural skin texture, teeth and expressions, consistent with real camera footage."
+   },
+   "split": "heldout"
+  },
+  "M037_P0485": {
+   "clip": "M037_P0485",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 9,
+     "same_pose": 6,
+     "same_pose_any": 6,
+     "reason": "A is a flat-shaded 3D cartoon avatar; B is a real woman with natural skin, hair and lighting, with head tilts and mouth openings that loosely follow A's."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 9,
+     "same_pose": null,
+     "same_pose_any": 5,
+     "reason": "A is a real woman on camera with natural skin, hair and lighting; B is a flat-shaded low-poly cartoon avatar with a roughly matching red top, mouth opening and head tilt."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "render",
+     "real"
+    ],
+    "output": 8,
+    "render": 1,
+    "real": 9,
+    "reason": "X: real-looking woman with natural skin, hair and lighting, slightly soft and smoothed. Y: flat-shaded low-poly cartoon avatar, obviously CG. Z: natural skin texture, gray hair strands and expressive movement, consistent with real camera footage."
+   },
+   "split": "heldout"
+  },
+  "M038_P0485": {
+   "clip": "M038_P0485",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 9,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "A is a low-poly 3D avatar with flat shading. B is a real woman with natural skin, hair and lighting. B follows A's head tilt, blink in frame 5 and mouth movement fairly well, though the gaze and mouth shapes differ in places."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 9,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A is a real woman on camera with natural skin, hair and lighting; B is a flat low-poly CG avatar. B follows A's gaze, blink and mouth opening roughly, but with a simplified face and different hair."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 9,
+    "render": 1,
+    "output": 8,
+    "reason": "X: natural skin texture, hair detail and expressions look like real camera footage. Y: flat-shaded low-poly 3D avatar, clearly CG. Z: realistic face and hair with natural blinks, slightly smooth and soft, so it could be a little processed."
+   },
+   "split": "heldout"
+  },
+  "M075_P0845": {
+   "clip": "M075_P0845",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 8,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "A is an obvious 3D cartoon render; B looks like a real woman on camera, with minor compression artifacts. B follows A's head tilt, eye closing and mouth opening across the frames fairly closely, though the identity and hair differ."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 7,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A shows a real-looking woman with natural skin and lighting; B is an obvious 3D cartoon render with orange hair, though its head tilts, blinks and mouth openings loosely follow A's."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 1,
+    "output": 7,
+    "real": 9,
+    "reason": "X is an obvious 3D cartoon render with flat shading and a stylized face. Y looks like a real person but has slight smoothing and warping artifacts in the face and shirt. Z has natural skin texture, flyaway hair, and a hand gesture, so it looks like real camera footage."
+   },
+   "split": "heldout"
+  },
+  "M076_P0845": {
+   "clip": "M076_P0845",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "A is a clearly CG character with flat shading and orange bun hair. B is a real-looking woman with natural skin and hair, and it follows A's head tilts, eye direction and mouth shapes closely, frame by frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 7,
+     "reason": "A shows a real woman with natural skin and hair; B is an obvious CG avatar with flat shading and orange hair, though it follows A's head tilt, gaze and mouth fairly closely."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 8,
+    "real": 9,
+    "render": 1,
+    "reason": "X: natural skin, hair and expressions, slightly smooth and soft, so probably real. Y: realistic texture, flyaway hair and consistent lighting, so very likely real. Z: flat-shaded 3D avatar with a stretched neck and plastic skin, clearly CG."
+   },
+   "split": "heldout"
+  },
+  "M092_P0989": {
+   "clip": "M092_P0989",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 5,
+     "same_pose_any": 5,
+     "reason": "A is a clearly CG cartoon avatar; B looks like a real woman on camera, with loosely similar head tilt and mouth open/close timing but a different person and expressions (e.g. A's wide-open mouth and wink aren't matched)."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 9,
+     "same_pose": null,
+     "same_pose_any": 4,
+     "reason": "A is a real woman on camera; B is a 3D cartoon avatar with loosely similar expressions but a different head pose and gaze."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 8,
+    "real": 9,
+    "render": 1,
+    "reason": "X: natural skin, hair, glasses and expressions, slightly soft and smoothed but it reads as a real camera recording. Y: detailed skin, stubble and lighting, with natural expressions and blinks. Z: clearly a CG avatar with a flat helmet-like hair shape, painted texture and a cartoon face."
+   },
+   "split": "heldout"
+  },
+  "M099_P1067": {
+   "clip": "M099_P1067",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 7,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "A is a clearly CG low-poly avatar; B looks like a real older woman on camera, with slight hair artifacts, and follows A's head turns and mouth shapes closely."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 7,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A has real skin texture, hair and lighting; B is an obvious low-poly 3D avatar with a helmet-like head and flat shading, though it roughly follows A's head turns and mouth opening."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "real",
+     "output"
+    ],
+    "render": 1,
+    "real": 9,
+    "output": 5,
+    "reason": "X is an obvious low-poly 3D render with flat shading and a cartoon face. Y has natural skin texture, hand gestures and a lavalier mic, so it looks like real footage. Z looks like a real person, but the hair at the top of the head shows streaky artifacts and the skin is smooth, which suggests generated or processed video."
+   },
+   "split": "heldout"
+  },
+  "M100_P1067": {
+   "clip": "M100_P1067",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 7,
+     "same_pose": 6,
+     "same_pose_any": 6,
+     "reason": "A is a flat-shaded CG character with a gray cap; B is a photoreal older woman with natural skin and clothing, with slight hair artifacts at the top. B follows A's head tilts and mouth openings in frames 3-4 roughly, but not exactly."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 7,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A is a photorealistic older woman with natural skin and hair, with minor artifacts at the hairline. B is an obvious low-poly CG avatar with a flat-shaded face and a helmet-like hair shape. B roughly follows A's head tilt and mouth opening, but not closely."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "output",
+     "render"
+    ],
+    "real": 8,
+    "output": 4,
+    "render": 1,
+    "reason": "X: natural skin texture, hair, and expressions look like a real camera recording. Y: face looks mostly real, but streaky hair artifacts at the top and smoothed skin suggest synthetic generation. Z: flat-shaded low-poly 3D render, obviously CG."
+   },
+   "split": "heldout"
+  },
+  "M103_P1174": {
+   "clip": "M103_P1174",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "A is a clearly CG cartoon avatar; B looks like a real man on camera, with head tilts and mouth shapes that roughly follow A's frame by frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A is a real man on camera with natural skin, hair and lighting; B is an obvious CG cartoon avatar with a similar head tilt and mouth opening, but different identity and framing."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "render",
+     "real"
+    ],
+    "output": 8,
+    "render": 1,
+    "real": 9,
+    "reason": "X: natural skin, hair and expressions, slightly soft and smoothed, so likely real. Y: clearly a 3D cartoon render with a rigid helmet-like hair shape and a blob beard. Z: natural skin texture, pores, a hand gesture and organic expressions, so it looks like real camera footage."
+   },
+   "split": "heldout"
+  },
+  "juno_01": {
+   "clip": "juno_01",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 9,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "A is a stylized 3D animated character; B is a real-looking woman with natural skin, hair and lighting, but she looks down with a different expression and a different identity, so the pose only loosely matches A."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "A is a real-looking woman with natural skin, hair and lighting; B is a stylized 3D animated character with a different identity, and its head pose and expression don't match A's downward gaze and slight smile."
+    }
+   ],
+   "split": null
+  },
+  "juno_02": {
+   "clip": "juno_02",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "A is a 3D animated cartoon character laughing; B is a realistic woman with natural skin and hair, but with a different identity, a gentle closed-eye smile and a different head pose and mouth shape."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 2,
+     "reason": "A looks like a real woman on camera; B is a 3D-animated cartoon character with a different identity, wide laughing mouth and arms out, unlike A's closed-eye soft smile."
+    }
+   ],
+   "split": null
+  },
+  "juno_03": {
+   "clip": "juno_03",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 9,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "A is a stylized 3D cartoon character; B is a real woman on camera. B has a similar downward head tilt but a different person, hair and expression, and the mouth shapes don't match."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 9,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "A is a real woman on camera, with natural skin, hair and lighting. B is a stylized 3D cartoon character with a different look. It follows A's head tilt only loosely, and its gaze and mouth don't match A's downcast look."
+    }
+   ],
+   "split": null
+  },
+  "juno_04": {
+   "clip": "juno_04",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": 2,
+     "same_pose_any": 2,
+     "reason": "A is a stylized 3D cartoon character (first two frames are black \"Warming up\" screens); B looks like a real woman on camera, but has a different identity, a downward gaze and a different pose, with two blurry placeholder frames at the start."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 8,
+     "same_pose": null,
+     "same_pose_any": 2,
+     "reason": "A shows a real woman with natural skin and lighting (first two frames are dark placeholders); B is a clearly CG cartoon character with different identity, and its pose and expression don't match A's."
+    }
+   ],
+   "split": null
+  },
+  "muse_01": {
+   "clip": "muse_01",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 4,
+     "same_pose_any": 4,
+     "reason": "Both are stylized doll/CG characters; B has more photographic texture but also artifacts (hair streaks, warped face), and its different character only loosely matches A's head tilts and smiles."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "Both are CG/doll-like characters, not real humans. A has slightly more photographic texture, with soft skin and hair. B is a clean 3D render of a fuzzy mascot in a classroom, and its character, background and body pose differ from A, though the small smile and gaze direction are loosely similar."
+    }
+   ],
+   "split": null
+  },
+  "muse_02": {
+   "clip": "muse_02",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 4,
+     "same_pose": 5,
+     "same_pose_any": 5,
+     "reason": "A is a clearly CG fluffy cartoon character; B is a human-like blonde with real hair and skin texture, though its face is distorted and uncanny. B follows A's head turns and mouth timing only loosely."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "A is a distorted human-like face with real hair and skin texture, though still uncanny. B is an obvious CG fluffy cartoon character. B only loosely follows A's head tilt and mouth."
+    }
+   ],
+   "split": null
+  },
+  "muse_03": {
+   "clip": "muse_03",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 4,
+     "same_pose": 4,
+     "same_pose_any": 4,
+     "reason": "A is a clearly CG fuzzy bear character; B is a photoreal-ish blonde woman but with warped doll eyes and distorted face, so it looks more human yet still artifact-ridden. B only loosely matches A's pose and mouth (frame 2 turns away while A doesn't)."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 4,
+     "reason": "A is a distorted, doll-like blonde human face, with one frame that looks nearly real. B is a clearly CG plush bear character in a classroom. B's mouth and expression partly follow A's (open mouth first, then a smile), but the head pose and identity differ."
+    }
+   ],
+   "split": null
+  },
+  "muse_04": {
+   "clip": "muse_04",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 6,
+     "same_pose_any": 6,
+     "reason": "A is an obvious 3D-rendered fuzzy cartoon creature; B is a human-like blonde child but has smeared artifacts, odd eyes and streaks, so it's only slightly more real. B roughly follows A's head turn and smirk."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A is a distorted but human-like child with real-looking hair and skin texture; B is a clearly CG fuzzy cartoon mascot in a rendered classroom, though its head turns and smile loosely follow A."
+    }
+   ],
+   "split": null
+  }
+ },
+ "summary": {
+  "clips": 20,
+  "trials": 40,
+  "output_win_rate": 1.0,
+  "output_win_ci95_wilson": [
+   0.912,
+   1
+  ],
+  "output_win_rate_clipmean": 1.0,
+  "output_win_ci95_bootstrap_clips": [
+   1.0,
+   1.0
+  ],
+  "order_consistency": 1.0,
+  "mean_realism_render": 1.65,
+  "mean_realism_output": 7.15,
+  "mean_same_pose_any": 5.0,
+  "three_way_mean_render": 1.0,
+  "three_way_mean_output": 6.75,
+  "three_way_mean_real": 8.83,
+  "three_way_n": 12
+ },
+ "summary_heldout": {
+  "clips": 12,
+  "trials": 24,
+  "output_win_rate": 1.0,
+  "output_win_ci95_wilson": [
+   0.862,
+   1
+  ],
+  "output_win_rate_clipmean": 1.0,
+  "output_win_ci95_bootstrap_clips": [
+   1.0,
+   1.0
+  ],
+  "order_consistency": 1.0,
+  "mean_realism_render": 1.5,
+  "mean_realism_output": 8.04,
+  "mean_same_pose_any": 6.0,
+  "three_way_mean_render": 1.0,
+  "three_way_mean_output": 6.75,
+  "three_way_mean_real": 8.83,
+  "three_way_n": 12
+ },
+ "summary_drive": {
+  "clips": 8,
+  "trials": 16,
+  "output_win_rate": 1.0,
+  "output_win_ci95_wilson": [
+   0.806,
+   1
+  ],
+  "output_win_rate_clipmean": 1.0,
+  "output_win_ci95_bootstrap_clips": [
+   1.0,
+   1.0
+  ],
+  "order_consistency": 1.0,
+  "mean_realism_render": 1.88,
+  "mean_realism_output": 5.81,
+  "mean_same_pose_any": 3.5
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "M070_P0844A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.46316618472337723,
+  "render_face_width_frac": 0.45004552602767944,
+  "face_center_offset_real_minus_render": [
+   -0.004445608705282211,
+   -0.012491252273321152
+  ],
+  "mouth_corr": 0.9482118933251833,
+  "best_lag": 0,
+  "best_corr": 0.9482118933251833
+ }
+}

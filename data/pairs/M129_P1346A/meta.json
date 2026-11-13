@@ -1,0 +1,49 @@
+{
+ "id": "M129_P1346A",
+ "identity": "P1346A",
+ "source": "seamless",
+ "file_id": "V00_S2090_I00001011_P1346A",
+ "src_video": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2090_I00001011_P1346A.mp4",
+ "src_start_frame": 1635,
+ "src_start_s": 54.5,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_src_1080x1920": [
+  377,
+  193,
+  336,
+  336
+ ],
+ "track_ctx_src": [
+  486,
+  864,
+  302,
+  92
+ ],
+ "crop_in_ctx": [
+  75,
+  101,
+  336
+ ],
+ "speech_frac": 0.97,
+ "frontal_frac": 0.91,
+ "origin": "render2real scale: tracked on native-res context crop, Blender renders only the crop window at 384",
+ "qc": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.46963581442832947,
+  "render_face_width_frac": 0.45963944494724274,
+  "face_center_offset_real_minus_render": [
+   0.0023441947996616364,
+   -0.005692176520824432
+  ],
+  "mouth_corr": 0.9626407643766958,
+  "best_lag": 0,
+  "best_corr": 0.9626407643766958
+ }
+}

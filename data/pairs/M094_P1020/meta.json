@@ -1,0 +1,49 @@
+{
+ "id": "M094_P1020",
+ "identity": "P1020",
+ "source": "seamless",
+ "file_id": "V00_S0922_I00000495_P1020",
+ "src_video": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0922_I00000495_P1020.mp4",
+ "src_start_frame": 2145,
+ "src_start_s": 71.5,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_src_1080x1920": [
+  351,
+  249,
+  344,
+  344
+ ],
+ "track_ctx_src": [
+  498,
+  884,
+  274,
+  145
+ ],
+ "crop_in_ctx": [
+  77,
+  104,
+  344
+ ],
+ "speech_frac": 0.8,
+ "frontal_frac": 0.96,
+ "origin": "render2real scale: tracked on native-res context crop, Blender renders only the crop window at 384",
+ "qc": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4341667592525482,
+  "render_face_width_frac": 0.43510518968105316,
+  "face_center_offset_real_minus_render": [
+   0.002239435911178589,
+   0.0015982650220394135
+  ],
+  "mouth_corr": 0.9702138638266968,
+  "best_lag": 0,
+  "best_corr": 0.9702138638266968
+ }
+}

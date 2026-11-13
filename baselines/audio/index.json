@@ -1,0 +1,3826 @@
+{
+ "M000_P0115": {
+  "path": "$WORK/audio/M000_P0115.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1823_I00000271_P0115.mp4",
+  "start_s": 36.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0115": 0.943,
+    "partner P1174": 0.12
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0115 close-talk mic), from 36.500 s",
+  "src_mean_volume_db": -46.4,
+  "src_max_volume_db": -29.2,
+  "gain_db": 24.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -4.6,
+  "has_audio": true
+ },
+ "M001_P0115": {
+  "path": "$WORK/audio/M001_P0115.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0080_I00000379_P0115.mp4",
+  "start_s": 183.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -32.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0115": 0.779,
+    "partner P0116": -0.136
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0115 close-talk mic), from 183.500 s",
+  "src_mean_volume_db": -32.7,
+  "src_max_volume_db": -15.1,
+  "gain_db": 10.7,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -4.4,
+  "has_audio": true
+ },
+ "M002_P0116": {
+  "path": "$WORK/audio/M002_P0116.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0080_I00000379_P0116.mp4",
+  "start_s": 160.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -31.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0115": 0.031,
+    "own P0116": 0.9
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0116 close-talk mic), from 160.500 s",
+  "src_mean_volume_db": -31.2,
+  "src_max_volume_db": -13.3,
+  "gain_db": 9.2,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -4.1,
+  "has_audio": true
+ },
+ "M003_P0116": {
+  "path": "$WORK/audio/M003_P0116.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0305_I00000375_P0116.mp4",
+  "start_s": 154.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -48.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0116": 0.898,
+    "partner P0410": 0.102
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0116 close-talk mic), from 154.500 s",
+  "src_mean_volume_db": -48.1,
+  "src_max_volume_db": -27.5,
+  "gain_db": 26.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.6,
+  "has_audio": true
+ },
+ "M004_P0116": {
+  "path": "$WORK/audio/M004_P0116.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0305_I00000138_P0116.mp4",
+  "start_s": 7.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0116": 0.931,
+    "partner P0410": -0.212
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0116 close-talk mic), from 7.500 s",
+  "src_mean_volume_db": -37.4,
+  "src_max_volume_db": -18.2,
+  "gain_db": 15.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.7,
+  "has_audio": true
+ },
+ "M005_P0116": {
+  "path": "$WORK/audio/M005_P0116.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0080_I00000379_P0116.mp4",
+  "start_s": 48.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -35.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0115": -0.109,
+    "own P0116": 0.924
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0116 close-talk mic), from 48.500 s",
+  "src_mean_volume_db": -35.5,
+  "src_max_volume_db": -14.2,
+  "gain_db": 13.2,
+  "mean_volume_db": -22.3,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M006_P0216": {
+  "path": "$WORK/audio/M006_P0216.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0152_I00000371_P0216.mp4",
+  "start_s": 27.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0216": 0.853,
+    "partner P0217": -0.028
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0216 close-talk mic), from 27.000 s",
+  "src_mean_volume_db": -38.6,
+  "src_max_volume_db": -21.5,
+  "gain_db": 16.6,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -5.9,
+  "has_audio": true
+ },
+ "M007_P0216": {
+  "path": "$WORK/audio/M007_P0216.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0152_I00000385_P0216.mp4",
+  "start_s": 55.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0216": 0.866,
+    "partner P0217": -0.055
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0216 close-talk mic), from 55.500 s",
+  "src_mean_volume_db": -37.3,
+  "src_max_volume_db": -18.6,
+  "gain_db": 15.3,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.2,
+  "has_audio": true
+ },
+ "M008_P0216": {
+  "path": "$WORK/audio/M008_P0216.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0152_I00000385_P0216.mp4",
+  "start_s": 108.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0216": 0.88,
+    "partner P0217": -0.374
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0216 close-talk mic), from 108.000 s",
+  "src_mean_volume_db": -39.6,
+  "src_max_volume_db": -23.0,
+  "gain_db": 17.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -5.3,
+  "has_audio": true
+ },
+ "M009_P0217": {
+  "path": "$WORK/audio/M009_P0217.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0152_I00000385_P0217.mp4",
+  "start_s": 85.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0216": -0.608,
+    "own P0217": 0.935
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0217 close-talk mic), from 85.000 s",
+  "src_mean_volume_db": -46.4,
+  "src_max_volume_db": -21.1,
+  "gain_db": 20.1,
+  "mean_volume_db": -26.4,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M010_P0299A": {
+  "path": "$WORK/audio/M010_P0299A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000377_P0299A.mp4",
+  "start_s": 211.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0299A close-talk mic), from 211.500 s",
+  "src_mean_volume_db": -40.8,
+  "src_max_volume_db": -19.4,
+  "gain_db": 18.4,
+  "mean_volume_db": -22.4,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M011_P0299A": {
+  "path": "$WORK/audio/M011_P0299A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000372_P0299A.mp4",
+  "start_s": 100.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -48.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0299A close-talk mic), from 100.000 s",
+  "src_mean_volume_db": -48.5,
+  "src_max_volume_db": -27.9,
+  "gain_db": 26.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.5,
+  "has_audio": true
+ },
+ "M012_P0299A": {
+  "path": "$WORK/audio/M012_P0299A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000373_P0299A.mp4",
+  "start_s": 73.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0299A close-talk mic), from 73.500 s",
+  "src_mean_volume_db": -43.9,
+  "src_max_volume_db": -20.1,
+  "gain_db": 19.1,
+  "mean_volume_db": -24.8,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M013_P0299A": {
+  "path": "$WORK/audio/M013_P0299A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000375_P0299A.mp4",
+  "start_s": 16.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0299A close-talk mic), from 16.500 s",
+  "src_mean_volume_db": -46.2,
+  "src_max_volume_db": -24.4,
+  "gain_db": 23.4,
+  "mean_volume_db": -22.8,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M014_P0299A": {
+  "path": "$WORK/audio/M014_P0299A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000502_P0299A.mp4",
+  "start_s": 171.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -48.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0299A close-talk mic), from 171.000 s",
+  "src_mean_volume_db": -48.6,
+  "src_max_volume_db": -28.9,
+  "gain_db": 26.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.1,
+  "has_audio": true
+ },
+ "M015_P0350": {
+  "path": "$WORK/audio/M015_P0350.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000130_P0350.mp4",
+  "start_s": 46.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0350": 0.791,
+    "partner P0351": -0.111
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0350 close-talk mic), from 46.000 s",
+  "src_mean_volume_db": -38.7,
+  "src_max_volume_db": -18.5,
+  "gain_db": 16.7,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -1.9,
+  "has_audio": true
+ },
+ "M016_P0350": {
+  "path": "$WORK/audio/M016_P0350.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000139_P0350.mp4",
+  "start_s": 45.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0350": 0.736
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0350 close-talk mic), from 45.000 s",
+  "src_mean_volume_db": -38.4,
+  "src_max_volume_db": -17.0,
+  "gain_db": 16.0,
+  "mean_volume_db": -22.4,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M017_P0350": {
+  "path": "$WORK/audio/M017_P0350.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000126_P0350.mp4",
+  "start_s": 173.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0350": 0.767,
+    "partner P0351": 0.249
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0350 close-talk mic), from 173.000 s",
+  "src_mean_volume_db": -37.8,
+  "src_max_volume_db": -13.7,
+  "gain_db": 12.7,
+  "mean_volume_db": -25.1,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M018_P0350": {
+  "path": "$WORK/audio/M018_P0350.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000128_P0350.mp4",
+  "start_s": 195.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0350": 0.691,
+    "partner P0351": -0.292
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0350 close-talk mic), from 195.000 s",
+  "src_mean_volume_db": -42.9,
+  "src_max_volume_db": -20.9,
+  "gain_db": 19.9,
+  "mean_volume_db": -23.0,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M019_P0350": {
+  "path": "$WORK/audio/M019_P0350.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000132_P0350.mp4",
+  "start_s": 11.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0350": 0.666,
+    "partner P0351": -0.06
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0350 close-talk mic), from 11.500 s",
+  "src_mean_volume_db": -37.3,
+  "src_max_volume_db": -14.0,
+  "gain_db": 13.0,
+  "mean_volume_db": -24.3,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M020_P0351": {
+  "path": "$WORK/audio/M020_P0351.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000128_P0351.mp4",
+  "start_s": 68.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0350": -0.344,
+    "own P0351": 0.905
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0351 close-talk mic), from 68.000 s",
+  "src_mean_volume_db": -41.9,
+  "src_max_volume_db": -23.4,
+  "gain_db": 19.9,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.6,
+  "has_audio": true
+ },
+ "M021_P0351": {
+  "path": "$WORK/audio/M021_P0351.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000126_P0351.mp4",
+  "start_s": 8.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0350": -0.161,
+    "own P0351": 0.852
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0351 close-talk mic), from 8.500 s",
+  "src_mean_volume_db": -39.6,
+  "src_max_volume_db": -17.0,
+  "gain_db": 16.0,
+  "mean_volume_db": -23.6,
+  "max_volume_db": -2.2,
+  "has_audio": true
+ },
+ "M022_P0351": {
+  "path": "$WORK/audio/M022_P0351.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000128_P0351.mp4",
+  "start_s": 19.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0350": -0.386,
+    "own P0351": 0.928
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0351 close-talk mic), from 19.000 s",
+  "src_mean_volume_db": -42.6,
+  "src_max_volume_db": -20.7,
+  "gain_db": 19.7,
+  "mean_volume_db": -22.9,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M023_P0370": {
+  "path": "$WORK/audio/M023_P0370.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0274_I00000130_P0370.mp4",
+  "start_s": 90.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0370": 0.889,
+    "partner P0371": -0.303
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0370 close-talk mic), from 90.000 s",
+  "src_mean_volume_db": -41.0,
+  "src_max_volume_db": -19.2,
+  "gain_db": 18.2,
+  "mean_volume_db": -22.8,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M024_P0383": {
+  "path": "$WORK/audio/M024_P0383.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0925_I00000480_P0383.mp4",
+  "start_s": 207.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0383 close-talk mic), from 207.500 s",
+  "src_mean_volume_db": -46.9,
+  "src_max_volume_db": -22.2,
+  "gain_db": 21.2,
+  "mean_volume_db": -25.7,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M025_P0383": {
+  "path": "$WORK/audio/M025_P0383.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0925_I00000538_P0383.mp4",
+  "start_s": 101.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -47.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0383 close-talk mic), from 101.000 s",
+  "src_mean_volume_db": -47.9,
+  "src_max_volume_db": -22.9,
+  "gain_db": 21.9,
+  "mean_volume_db": -26.0,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M026_P0383": {
+  "path": "$WORK/audio/M026_P0383.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000168_P0383.mp4",
+  "start_s": 158.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -47.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0383 close-talk mic), from 158.500 s",
+  "src_mean_volume_db": -47.1,
+  "src_max_volume_db": -27.9,
+  "gain_db": 25.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.9,
+  "has_audio": true
+ },
+ "M027_P0383": {
+  "path": "$WORK/audio/M027_P0383.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0809_I00000581_P0383.mp4",
+  "start_s": 110.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0383 close-talk mic), from 110.000 s",
+  "src_mean_volume_db": -37.5,
+  "src_max_volume_db": -14.0,
+  "gain_db": 13.0,
+  "mean_volume_db": -24.5,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M028_P0383": {
+  "path": "$WORK/audio/M028_P0383.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000172_P0383.mp4",
+  "start_s": 183.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0383 close-talk mic), from 183.000 s",
+  "src_mean_volume_db": -40.7,
+  "src_max_volume_db": -19.0,
+  "gain_db": 18.0,
+  "mean_volume_db": -22.8,
+  "max_volume_db": -0.6,
+  "has_audio": true
+ },
+ "M029_P0410": {
+  "path": "$WORK/audio/M029_P0410.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0377_I00000480_P0410.mp4",
+  "start_s": 27.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0410": 0.827,
+    "partner P0500": 0.05
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0410 close-talk mic), from 27.000 s",
+  "src_mean_volume_db": -43.2,
+  "src_max_volume_db": -26.6,
+  "gain_db": 21.2,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -5.2,
+  "has_audio": true
+ },
+ "M030_P0410": {
+  "path": "$WORK/audio/M030_P0410.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0305_I00000375_P0410.mp4",
+  "start_s": 46.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0116": 0.11,
+    "own P0410": 0.815
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0410 close-talk mic), from 46.000 s",
+  "src_mean_volume_db": -45.0,
+  "src_max_volume_db": -26.1,
+  "gain_db": 23.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.1,
+  "has_audio": true
+ },
+ "M031_P0410": {
+  "path": "$WORK/audio/M031_P0410.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0377_I00000486_P0410.mp4",
+  "start_s": 97.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0410": 0.861,
+    "partner P0500": 0.06
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0410 close-talk mic), from 97.000 s",
+  "src_mean_volume_db": -42.8,
+  "src_max_volume_db": -22.4,
+  "gain_db": 20.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.7,
+  "has_audio": true
+ },
+ "M032_P0410": {
+  "path": "$WORK/audio/M032_P0410.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0377_I00000495_P0410.mp4",
+  "start_s": 224.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -50.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0410": 0.838,
+    "partner P0500": -0.028
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0410 close-talk mic), from 224.500 s",
+  "src_mean_volume_db": -50.0,
+  "src_max_volume_db": -34.4,
+  "gain_db": 28.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -6.5,
+  "has_audio": true
+ },
+ "M033_P0410": {
+  "path": "$WORK/audio/M033_P0410.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0305_I00000138_P0410.mp4",
+  "start_s": 46.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0116": -0.072,
+    "own P0410": 0.884
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0410 close-talk mic), from 46.500 s",
+  "src_mean_volume_db": -40.5,
+  "src_max_volume_db": -24.2,
+  "gain_db": 18.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -5.6,
+  "has_audio": true
+ },
+ "M034_P0467": {
+  "path": "$WORK/audio/M034_P0467.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000461_P0467.mp4",
+  "start_s": 102.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -49.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0467": 0.903,
+    "partner P0697": 0.048
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0467 close-talk mic), from 102.000 s",
+  "src_mean_volume_db": -49.8,
+  "src_max_volume_db": -28.1,
+  "gain_db": 27.1,
+  "mean_volume_db": -22.7,
+  "max_volume_db": -1.5,
+  "has_audio": true
+ },
+ "M035_P0467": {
+  "path": "$WORK/audio/M035_P0467.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000126_P0467.mp4",
+  "start_s": 124.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0467": 0.876,
+    "partner P0697": -0.048
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0467 close-talk mic), from 124.000 s",
+  "src_mean_volume_db": -45.5,
+  "src_max_volume_db": -22.3,
+  "gain_db": 21.3,
+  "mean_volume_db": -24.2,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M036_P0467": {
+  "path": "$WORK/audio/M036_P0467.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000461_P0467.mp4",
+  "start_s": 144.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0467": 0.843,
+    "partner P0697": -0.379
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0467 close-talk mic), from 144.000 s",
+  "src_mean_volume_db": -42.5,
+  "src_max_volume_db": -17.8,
+  "gain_db": 16.8,
+  "mean_volume_db": -25.6,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M037_P0485": {
+  "path": "$WORK/audio/M037_P0485.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0360_I00000372_P0485.mp4",
+  "start_s": 111.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0484": 0.076,
+    "own P0485": 0.68
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0485 close-talk mic), from 111.500 s",
+  "src_mean_volume_db": -43.5,
+  "src_max_volume_db": -21.6,
+  "gain_db": 20.6,
+  "mean_volume_db": -23.0,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M038_P0485": {
+  "path": "$WORK/audio/M038_P0485.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0360_I00000372_P0485.mp4",
+  "start_s": 182.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -49.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0484": -0.376,
+    "own P0485": 0.731
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0485 close-talk mic), from 182.500 s",
+  "src_mean_volume_db": -49.4,
+  "src_max_volume_db": -30.2,
+  "gain_db": 27.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.8,
+  "has_audio": true
+ },
+ "M039_P0566": {
+  "path": "$WORK/audio/M039_P0566.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000126_P0566.mp4",
+  "start_s": 48.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0566": 0.939,
+    "partner P0663": -0.155
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0566 close-talk mic), from 48.000 s",
+  "src_mean_volume_db": -40.7,
+  "src_max_volume_db": -19.2,
+  "gain_db": 18.2,
+  "mean_volume_db": -22.6,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M040_P0566": {
+  "path": "$WORK/audio/M040_P0566.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000135_P0566.mp4",
+  "start_s": 39.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0566": 0.893,
+    "partner P0663": -0.33
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0566 close-talk mic), from 39.500 s",
+  "src_mean_volume_db": -42.6,
+  "src_max_volume_db": -21.8,
+  "gain_db": 20.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M041_P0566": {
+  "path": "$WORK/audio/M041_P0566.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000126_P0566.mp4",
+  "start_s": 248.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0566": 0.926,
+    "partner P0663": -0.274
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0566 close-talk mic), from 248.500 s",
+  "src_mean_volume_db": -40.5,
+  "src_max_volume_db": -18.9,
+  "gain_db": 17.9,
+  "mean_volume_db": -22.6,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M042_P0663": {
+  "path": "$WORK/audio/M042_P0663.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000135_P0663.mp4",
+  "start_s": 121.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0566": 0.122,
+    "own P0663": 0.91
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0663 close-talk mic), from 121.000 s",
+  "src_mean_volume_db": -38.1,
+  "src_max_volume_db": -17.9,
+  "gain_db": 16.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.6,
+  "has_audio": true
+ },
+ "M043_P0663": {
+  "path": "$WORK/audio/M043_P0663.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000126_P0663.mp4",
+  "start_s": 12.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0566": -0.046,
+    "own P0663": 0.911
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0663 close-talk mic), from 12.000 s",
+  "src_mean_volume_db": -40.0,
+  "src_max_volume_db": -19.3,
+  "gain_db": 18.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M044_P0663": {
+  "path": "$WORK/audio/M044_P0663.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000126_P0663.mp4",
+  "start_s": 201.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0566": -0.306,
+    "own P0663": 0.844
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0663 close-talk mic), from 201.000 s",
+  "src_mean_volume_db": -40.9,
+  "src_max_volume_db": -20.1,
+  "gain_db": 18.9,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.3,
+  "has_audio": true
+ },
+ "M045_P0663": {
+  "path": "$WORK/audio/M045_P0663.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0521_I00000135_P0663.mp4",
+  "start_s": 87.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0566": -0.352,
+    "own P0663": 0.912
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0663 close-talk mic), from 87.000 s",
+  "src_mean_volume_db": -38.6,
+  "src_max_volume_db": -17.6,
+  "gain_db": 16.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M046_P0697": {
+  "path": "$WORK/audio/M046_P0697.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000461_P0697.mp4",
+  "start_s": 68.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0467": 0.018,
+    "own P0697": 0.36
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0697 close-talk mic), from 68.500 s",
+  "src_mean_volume_db": -44.3,
+  "src_max_volume_db": -24.3,
+  "gain_db": 22.3,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.1,
+  "has_audio": true
+ },
+ "M047_P0697": {
+  "path": "$WORK/audio/M047_P0697.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000126_P0697.mp4",
+  "start_s": 101.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0467": -0.318,
+    "own P0697": 0.756
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0697 close-talk mic), from 101.000 s",
+  "src_mean_volume_db": -44.8,
+  "src_max_volume_db": -27.1,
+  "gain_db": 22.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -4.3,
+  "has_audio": true
+ },
+ "M048_P0697": {
+  "path": "$WORK/audio/M048_P0697.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000461_P0697.mp4",
+  "start_s": 32.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0467": 0.0,
+    "own P0697": 0.446
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0697 close-talk mic), from 32.500 s",
+  "src_mean_volume_db": -42.1,
+  "src_max_volume_db": -22.3,
+  "gain_db": 20.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.1,
+  "has_audio": true
+ },
+ "M049_P0697": {
+  "path": "$WORK/audio/M049_P0697.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000126_P0697.mp4",
+  "start_s": 61.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0467": -0.579,
+    "own P0697": 0.727
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0697 close-talk mic), from 61.000 s",
+  "src_mean_volume_db": -42.4,
+  "src_max_volume_db": -23.8,
+  "gain_db": 20.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.5,
+  "has_audio": true
+ },
+ "M050_P0731": {
+  "path": "$WORK/audio/M050_P0731.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000168_P0731.mp4",
+  "start_s": 42.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0731 close-talk mic), from 42.000 s",
+  "src_mean_volume_db": -44.4,
+  "src_max_volume_db": -22.5,
+  "gain_db": 21.5,
+  "mean_volume_db": -22.9,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M051_P0731": {
+  "path": "$WORK/audio/M051_P0731.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000172_P0731.mp4",
+  "start_s": 199.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0731 close-talk mic), from 199.000 s",
+  "src_mean_volume_db": -37.7,
+  "src_max_volume_db": -17.2,
+  "gain_db": 15.7,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.5,
+  "has_audio": true
+ },
+ "M052_P0731": {
+  "path": "$WORK/audio/M052_P0731.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000168_P0731.mp4",
+  "start_s": 209.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0731 close-talk mic), from 209.000 s",
+  "src_mean_volume_db": -44.5,
+  "src_max_volume_db": -20.5,
+  "gain_db": 19.5,
+  "mean_volume_db": -25.0,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M053_P0779": {
+  "path": "$WORK/audio/M053_P0779.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0627_I00000371_P0779.mp4",
+  "start_s": 205.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0779": 0.601,
+    "partner P0780": 0.101
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0779 close-talk mic), from 205.000 s",
+  "src_mean_volume_db": -41.4,
+  "src_max_volume_db": -22.1,
+  "gain_db": 19.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.7,
+  "has_audio": true
+ },
+ "M054_P0779": {
+  "path": "$WORK/audio/M054_P0779.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0627_I00000372_P0779.mp4",
+  "start_s": 192.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0779": 0.701,
+    "partner P0780": -0.307
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0779 close-talk mic), from 192.000 s",
+  "src_mean_volume_db": -46.8,
+  "src_max_volume_db": -24.9,
+  "gain_db": 23.9,
+  "mean_volume_db": -22.9,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M055_P0779": {
+  "path": "$WORK/audio/M055_P0779.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0627_I00000371_P0779.mp4",
+  "start_s": 49.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0779": 0.734,
+    "partner P0780": -0.64
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0779 close-talk mic), from 49.500 s",
+  "src_mean_volume_db": -43.5,
+  "src_max_volume_db": -20.1,
+  "gain_db": 19.1,
+  "mean_volume_db": -24.4,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M056_P0780": {
+  "path": "$WORK/audio/M056_P0780.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0627_I00000379_P0780.mp4",
+  "start_s": 27.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0779": -0.315,
+    "own P0780": 0.934
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0780 close-talk mic), from 27.000 s",
+  "src_mean_volume_db": -39.1,
+  "src_max_volume_db": -23.4,
+  "gain_db": 17.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -6.1,
+  "has_audio": true
+ },
+ "M057_P0780": {
+  "path": "$WORK/audio/M057_P0780.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0627_I00000372_P0780.mp4",
+  "start_s": 32.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0779": 0.047,
+    "own P0780": 0.926
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0780 close-talk mic), from 32.500 s",
+  "src_mean_volume_db": -38.1,
+  "src_max_volume_db": -13.8,
+  "gain_db": 12.8,
+  "mean_volume_db": -25.3,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M058_P0780": {
+  "path": "$WORK/audio/M058_P0780.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0627_I00000372_P0780.mp4",
+  "start_s": 99.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -35.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0779": -0.258,
+    "own P0780": 0.933
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0780 close-talk mic), from 99.000 s",
+  "src_mean_volume_db": -35.4,
+  "src_max_volume_db": -10.7,
+  "gain_db": 9.7,
+  "mean_volume_db": -25.7,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M059_P0799": {
+  "path": "$WORK/audio/M059_P0799.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0644_I00000582_P0799.mp4",
+  "start_s": 31.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0799 close-talk mic), from 31.000 s",
+  "src_mean_volume_db": -46.4,
+  "src_max_volume_db": -25.4,
+  "gain_db": 24.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M060_P0801": {
+  "path": "$WORK/audio/M060_P0801.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000373_P0801.mp4",
+  "start_s": 133.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0801 close-talk mic), from 133.000 s",
+  "src_mean_volume_db": -42.2,
+  "src_max_volume_db": -19.6,
+  "gain_db": 18.6,
+  "mean_volume_db": -23.6,
+  "max_volume_db": -0.6,
+  "has_audio": true
+ },
+ "M061_P0801": {
+  "path": "$WORK/audio/M061_P0801.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000502_P0801.mp4",
+  "start_s": 14.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0801 close-talk mic), from 14.000 s",
+  "src_mean_volume_db": -41.0,
+  "src_max_volume_db": -20.3,
+  "gain_db": 19.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M062_P0801": {
+  "path": "$WORK/audio/M062_P0801.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000372_P0801.mp4",
+  "start_s": 64.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0801 close-talk mic), from 64.000 s",
+  "src_mean_volume_db": -40.3,
+  "src_max_volume_db": -20.1,
+  "gain_db": 18.3,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.7,
+  "has_audio": true
+ },
+ "M063_P0801": {
+  "path": "$WORK/audio/M063_P0801.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000377_P0801.mp4",
+  "start_s": 77.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0801 close-talk mic), from 77.000 s",
+  "src_mean_volume_db": -43.6,
+  "src_max_volume_db": -22.0,
+  "gain_db": 21.0,
+  "mean_volume_db": -22.6,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M064_P0801": {
+  "path": "$WORK/audio/M064_P0801.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0648_I00000375_P0801.mp4",
+  "start_s": 102.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0801 close-talk mic), from 102.000 s",
+  "src_mean_volume_db": -42.6,
+  "src_max_volume_db": -22.1,
+  "gain_db": 20.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.4,
+  "has_audio": true
+ },
+ "M065_P0840": {
+  "path": "$WORK/audio/M065_P0840.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0691_I00000486_P0840.mp4",
+  "start_s": 267.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": 0.046,
+    "own P0840": 0.92
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0840 close-talk mic), from 267.000 s",
+  "src_mean_volume_db": -42.7,
+  "src_max_volume_db": -23.7,
+  "gain_db": 20.7,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.1,
+  "has_audio": true
+ },
+ "M066_P0840": {
+  "path": "$WORK/audio/M066_P0840.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0691_I00000495_P0840.mp4",
+  "start_s": 97.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": -0.478,
+    "own P0840": 0.906
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0840 close-talk mic), from 97.500 s",
+  "src_mean_volume_db": -43.3,
+  "src_max_volume_db": -20.9,
+  "gain_db": 19.9,
+  "mean_volume_db": -23.5,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M067_P0840": {
+  "path": "$WORK/audio/M067_P0840.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0691_I00000135_P0840.mp4",
+  "start_s": 81.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0840": 0.927
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0840 close-talk mic), from 81.500 s",
+  "src_mean_volume_db": -39.3,
+  "src_max_volume_db": -19.7,
+  "gain_db": 17.3,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -2.3,
+  "has_audio": true
+ },
+ "M068_P0840": {
+  "path": "$WORK/audio/M068_P0840.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0691_I00000486_P0840.mp4",
+  "start_s": 230.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": -0.04,
+    "own P0840": 0.924
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0840 close-talk mic), from 230.500 s",
+  "src_mean_volume_db": -41.5,
+  "src_max_volume_db": -20.6,
+  "gain_db": 19.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M069_P0840": {
+  "path": "$WORK/audio/M069_P0840.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0691_I00000495_P0840.mp4",
+  "start_s": 63.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": -0.203,
+    "own P0840": 0.965
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0840 close-talk mic), from 63.000 s",
+  "src_mean_volume_db": -37.8,
+  "src_max_volume_db": -17.2,
+  "gain_db": 15.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.6,
+  "has_audio": true
+ },
+ "M070_P0844A": {
+  "path": "$WORK/audio/M070_P0844A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000479_P0844A.mp4",
+  "start_s": 62.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0844A close-talk mic), from 62.000 s",
+  "src_mean_volume_db": -38.4,
+  "src_max_volume_db": -13.7,
+  "gain_db": 12.7,
+  "mean_volume_db": -25.7,
+  "max_volume_db": -1.3,
+  "has_audio": true
+ },
+ "M071_P0844A": {
+  "path": "$WORK/audio/M071_P0844A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000495_P0844A.mp4",
+  "start_s": 84.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0844A close-talk mic), from 84.000 s",
+  "src_mean_volume_db": -41.7,
+  "src_max_volume_db": -16.5,
+  "gain_db": 15.5,
+  "mean_volume_db": -26.2,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M072_P0844A": {
+  "path": "$WORK/audio/M072_P0844A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000575_P0844A.mp4",
+  "start_s": 37.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0844A close-talk mic), from 37.500 s",
+  "src_mean_volume_db": -40.5,
+  "src_max_volume_db": -19.4,
+  "gain_db": 18.4,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M073_P0844A": {
+  "path": "$WORK/audio/M073_P0844A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000536_P0844A.mp4",
+  "start_s": 109.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0844A close-talk mic), from 109.000 s",
+  "src_mean_volume_db": -37.4,
+  "src_max_volume_db": -15.6,
+  "gain_db": 14.6,
+  "mean_volume_db": -22.7,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M074_P0844A": {
+  "path": "$WORK/audio/M074_P0844A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000307_P0844A.mp4",
+  "start_s": 73.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0844A close-talk mic), from 73.500 s",
+  "src_mean_volume_db": -42.1,
+  "src_max_volume_db": -20.3,
+  "gain_db": 19.3,
+  "mean_volume_db": -22.8,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M075_P0845": {
+  "path": "$WORK/audio/M075_P0845.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000479_P0845.mp4",
+  "start_s": 135.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0845 close-talk mic), from 135.000 s",
+  "src_mean_volume_db": -38.9,
+  "src_max_volume_db": -18.3,
+  "gain_db": 16.9,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M076_P0845": {
+  "path": "$WORK/audio/M076_P0845.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000487_P0845.mp4",
+  "start_s": 145.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0845 close-talk mic), from 145.500 s",
+  "src_mean_volume_db": -42.9,
+  "src_max_volume_db": -18.7,
+  "gain_db": 17.7,
+  "mean_volume_db": -25.1,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M077_P0847": {
+  "path": "$WORK/audio/M077_P0847.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0696_I00000375_P0847.mp4",
+  "start_s": 58.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0847 close-talk mic), from 58.000 s",
+  "src_mean_volume_db": -40.0,
+  "src_max_volume_db": -19.1,
+  "gain_db": 18.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M078_P0847": {
+  "path": "$WORK/audio/M078_P0847.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0696_I00000135_P0847.mp4",
+  "start_s": 90.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0847 close-talk mic), from 90.500 s",
+  "src_mean_volume_db": -43.8,
+  "src_max_volume_db": -24.6,
+  "gain_db": 21.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.9,
+  "has_audio": true
+ },
+ "M079_P0847": {
+  "path": "$WORK/audio/M079_P0847.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0696_I00000375_P0847.mp4",
+  "start_s": 117.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0847 close-talk mic), from 117.000 s",
+  "src_mean_volume_db": -40.4,
+  "src_max_volume_db": -22.3,
+  "gain_db": 18.4,
+  "mean_volume_db": -21.8,
+  "max_volume_db": 0.0,
+  "has_audio": true
+ },
+ "M080_P0852": {
+  "path": "$WORK/audio/M080_P0852.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000138_P0852.mp4",
+  "start_s": 104.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0852 close-talk mic), from 104.500 s",
+  "src_mean_volume_db": -40.0,
+  "src_max_volume_db": -20.1,
+  "gain_db": 18.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.8,
+  "has_audio": true
+ },
+ "M081_P0852": {
+  "path": "$WORK/audio/M081_P0852.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000126_P0852.mp4",
+  "start_s": 33.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0852 close-talk mic), from 33.500 s",
+  "src_mean_volume_db": -40.8,
+  "src_max_volume_db": -20.0,
+  "gain_db": 18.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.3,
+  "has_audio": true
+ },
+ "M082_P0852": {
+  "path": "$WORK/audio/M082_P0852.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000580_P0852.mp4",
+  "start_s": 52.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0852 close-talk mic), from 52.000 s",
+  "src_mean_volume_db": -38.6,
+  "src_max_volume_db": -19.0,
+  "gain_db": 16.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.3,
+  "has_audio": true
+ },
+ "M083_P0852": {
+  "path": "$WORK/audio/M083_P0852.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000125_P0852.mp4",
+  "start_s": 19.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0852 close-talk mic), from 19.500 s",
+  "src_mean_volume_db": -39.5,
+  "src_max_volume_db": -21.2,
+  "gain_db": 17.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.6,
+  "has_audio": true
+ },
+ "M084_P0852": {
+  "path": "$WORK/audio/M084_P0852.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000132_P0852.mp4",
+  "start_s": 125.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0852 close-talk mic), from 125.500 s",
+  "src_mean_volume_db": -42.8,
+  "src_max_volume_db": -22.2,
+  "gain_db": 20.8,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -1.7,
+  "has_audio": true
+ },
+ "M085_P0947": {
+  "path": "$WORK/audio/M085_P0947.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0809_I00000580_P0947.mp4",
+  "start_s": 141.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0947 close-talk mic), from 141.000 s",
+  "src_mean_volume_db": -45.0,
+  "src_max_volume_db": -22.7,
+  "gain_db": 21.7,
+  "mean_volume_db": -23.3,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M086_P0947": {
+  "path": "$WORK/audio/M086_P0947.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0809_I00000307_P0947.mp4",
+  "start_s": 241.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0947 close-talk mic), from 241.500 s",
+  "src_mean_volume_db": -45.0,
+  "src_max_volume_db": -24.5,
+  "gain_db": 23.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.7,
+  "has_audio": true
+ },
+ "M087_P0947": {
+  "path": "$WORK/audio/M087_P0947.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0809_I00000582_P0947.mp4",
+  "start_s": 12.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0947 close-talk mic), from 12.000 s",
+  "src_mean_volume_db": -46.1,
+  "src_max_volume_db": -25.9,
+  "gain_db": 24.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.8,
+  "has_audio": true
+ },
+ "M088_P0947": {
+  "path": "$WORK/audio/M088_P0947.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0809_I00000581_P0947.mp4",
+  "start_s": 10.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0947 close-talk mic), from 10.000 s",
+  "src_mean_volume_db": -42.5,
+  "src_max_volume_db": -21.9,
+  "gain_db": 20.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.4,
+  "has_audio": true
+ },
+ "M089_P0947": {
+  "path": "$WORK/audio/M089_P0947.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0809_I00000580_P0947.mp4",
+  "start_s": 44.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0947 close-talk mic), from 44.500 s",
+  "src_mean_volume_db": -46.5,
+  "src_max_volume_db": -27.3,
+  "gain_db": 24.5,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -2.8,
+  "has_audio": true
+ },
+ "M090_P0959": {
+  "path": "$WORK/audio/M090_P0959.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0825_I00000132_P0959.mp4",
+  "start_s": 21.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -34.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": 0.007,
+    "own P0959": 0.916
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0959 close-talk mic), from 21.000 s",
+  "src_mean_volume_db": -34.6,
+  "src_max_volume_db": -16.6,
+  "gain_db": 12.6,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -4.0,
+  "has_audio": true
+ },
+ "M091_P0959": {
+  "path": "$WORK/audio/M091_P0959.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0825_I00000132_P0959.mp4",
+  "start_s": 107.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -35.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": -0.087,
+    "own P0959": 0.899
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0959 close-talk mic), from 107.000 s",
+  "src_mean_volume_db": -35.4,
+  "src_max_volume_db": -19.2,
+  "gain_db": 13.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -5.7,
+  "has_audio": true
+ },
+ "M092_P0989": {
+  "path": "$WORK/audio/M092_P0989.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1085_I00000188_P0989.mp4",
+  "start_s": 125.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0989": 0.761,
+    "partner P1076": 0.163
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0989 close-talk mic), from 125.000 s",
+  "src_mean_volume_db": -42.6,
+  "src_max_volume_db": -20.3,
+  "gain_db": 19.3,
+  "mean_volume_db": -23.3,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M093_P1020": {
+  "path": "$WORK/audio/M093_P1020.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0922_I00000495_P1020.mp4",
+  "start_s": 104.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -36.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": 0.047,
+    "own P1020": 0.91
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1020 close-talk mic), from 104.500 s",
+  "src_mean_volume_db": -36.6,
+  "src_max_volume_db": -18.8,
+  "gain_db": 14.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -4.1,
+  "has_audio": true
+ },
+ "M094_P1020": {
+  "path": "$WORK/audio/M094_P1020.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0922_I00000495_P1020.mp4",
+  "start_s": 71.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0500": -0.278,
+    "own P1020": 0.928
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1020 close-talk mic), from 71.500 s",
+  "src_mean_volume_db": -39.8,
+  "src_max_volume_db": -21.0,
+  "gain_db": 17.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.3,
+  "has_audio": true
+ },
+ "M095_P1040": {
+  "path": "$WORK/audio/M095_P1040.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0948_I00000372_P1040.mp4",
+  "start_s": 164.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -47.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P1040": 0.924,
+    "partner P1041": -0.075
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1040 close-talk mic), from 164.500 s",
+  "src_mean_volume_db": -47.9,
+  "src_max_volume_db": -28.0,
+  "gain_db": 25.9,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.0,
+  "has_audio": true
+ },
+ "M096_P1040": {
+  "path": "$WORK/audio/M096_P1040.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0948_I00000372_P1040.mp4",
+  "start_s": 122.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P1040": 0.879,
+    "partner P1041": 0.093
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1040 close-talk mic), from 122.000 s",
+  "src_mean_volume_db": -46.6,
+  "src_max_volume_db": -26.1,
+  "gain_db": 24.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.4,
+  "has_audio": true
+ },
+ "M097_P1066": {
+  "path": "$WORK/audio/M097_P1066.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1045_I00000295_P1066.mp4",
+  "start_s": 119.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P1066": 0.873,
+    "partner P1067": -0.009
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1066 close-talk mic), from 119.000 s",
+  "src_mean_volume_db": -43.8,
+  "src_max_volume_db": -22.9,
+  "gain_db": 21.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M098_P1066": {
+  "path": "$WORK/audio/M098_P1066.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1045_I00000295_P1066.mp4",
+  "start_s": 69.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P1066": 0.843,
+    "partner P1067": -0.383
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1066 close-talk mic), from 69.500 s",
+  "src_mean_volume_db": -41.9,
+  "src_max_volume_db": -22.3,
+  "gain_db": 19.9,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.5,
+  "has_audio": true
+ },
+ "M099_P1067": {
+  "path": "$WORK/audio/M099_P1067.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1045_I00000295_P1067.mp4",
+  "start_s": 153.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P1066": -0.082,
+    "own P1067": 0.896
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1067 close-talk mic), from 153.000 s",
+  "src_mean_volume_db": -41.6,
+  "src_max_volume_db": -14.9,
+  "gain_db": 13.9,
+  "mean_volume_db": -27.6,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M100_P1067": {
+  "path": "$WORK/audio/M100_P1067.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1045_I00000295_P1067.mp4",
+  "start_s": 112.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P1066": -0.143,
+    "own P1067": 0.891
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1067 close-talk mic), from 112.500 s",
+  "src_mean_volume_db": -45.9,
+  "src_max_volume_db": -25.7,
+  "gain_db": 23.9,
+  "mean_volume_db": -21.8,
+  "max_volume_db": -1.7,
+  "has_audio": true
+ },
+ "M101_P1076": {
+  "path": "$WORK/audio/M101_P1076.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1085_I00000188_P1076.mp4",
+  "start_s": 16.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0989": -0.016,
+    "own P1076": 0.916
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1076 close-talk mic), from 16.500 s",
+  "src_mean_volume_db": -37.2,
+  "src_max_volume_db": -17.5,
+  "gain_db": 15.2,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.3,
+  "has_audio": true
+ },
+ "M102_P1076": {
+  "path": "$WORK/audio/M102_P1076.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1085_I00000188_P1076.mp4",
+  "start_s": 268.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -31.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0989": -0.06,
+    "own P1076": 0.881
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1076 close-talk mic), from 268.500 s",
+  "src_mean_volume_db": -31.6,
+  "src_max_volume_db": -15.6,
+  "gain_db": 9.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -6.0,
+  "has_audio": true
+ },
+ "M103_P1174": {
+  "path": "$WORK/audio/M103_P1174.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1823_I00000271_P1174.mp4",
+  "start_s": 81.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0115": -0.101,
+    "own P1174": 0.956
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1174 close-talk mic), from 81.500 s",
+  "src_mean_volume_db": -45.9,
+  "src_max_volume_db": -24.5,
+  "gain_db": 23.5,
+  "mean_volume_db": -22.5,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M104_P1275A": {
+  "path": "$WORK/audio/M104_P1275A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2022_I00001199_P1275A.mp4",
+  "start_s": 25.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1275A close-talk mic), from 25.000 s",
+  "src_mean_volume_db": -39.5,
+  "src_max_volume_db": -20.3,
+  "gain_db": 17.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.7,
+  "has_audio": true
+ },
+ "M105_P1275A": {
+  "path": "$WORK/audio/M105_P1275A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000684_P1275A.mp4",
+  "start_s": 119.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1275A close-talk mic), from 119.000 s",
+  "src_mean_volume_db": -44.2,
+  "src_max_volume_db": -28.3,
+  "gain_db": 22.2,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -6.2,
+  "has_audio": true
+ },
+ "M106_P1275A": {
+  "path": "$WORK/audio/M106_P1275A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2022_I00001201_P1275A.mp4",
+  "start_s": 199.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1275A close-talk mic), from 199.500 s",
+  "src_mean_volume_db": -39.9,
+  "src_max_volume_db": -20.5,
+  "gain_db": 17.9,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.5,
+  "has_audio": true
+ },
+ "M107_P1275A": {
+  "path": "$WORK/audio/M107_P1275A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000684_P1275A.mp4",
+  "start_s": 19.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1275A close-talk mic), from 19.500 s",
+  "src_mean_volume_db": -45.2,
+  "src_max_volume_db": -24.3,
+  "gain_db": 23.2,
+  "mean_volume_db": -22.2,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M108_P1275A": {
+  "path": "$WORK/audio/M108_P1275A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2022_I00001201_P1275A.mp4",
+  "start_s": 23.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1275A close-talk mic), from 23.000 s",
+  "src_mean_volume_db": -46.1,
+  "src_max_volume_db": -25.5,
+  "gain_db": 24.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.4,
+  "has_audio": true
+ },
+ "M109_P1276A": {
+  "path": "$WORK/audio/M109_P1276A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000682_P1276A.mp4",
+  "start_s": 13.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1276A close-talk mic), from 13.500 s",
+  "src_mean_volume_db": -37.2,
+  "src_max_volume_db": -13.3,
+  "gain_db": 12.3,
+  "mean_volume_db": -24.9,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M110_P1276A": {
+  "path": "$WORK/audio/M110_P1276A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000681_P1276A.mp4",
+  "start_s": 7.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1276A close-talk mic), from 7.500 s",
+  "src_mean_volume_db": -38.6,
+  "src_max_volume_db": -18.3,
+  "gain_db": 16.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.7,
+  "has_audio": true
+ },
+ "M111_P1276A": {
+  "path": "$WORK/audio/M111_P1276A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000684_P1276A.mp4",
+  "start_s": 158.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1276A close-talk mic), from 158.000 s",
+  "src_mean_volume_db": -43.3,
+  "src_max_volume_db": -21.2,
+  "gain_db": 20.2,
+  "mean_volume_db": -23.1,
+  "max_volume_db": -0.6,
+  "has_audio": true
+ },
+ "M112_P1276A": {
+  "path": "$WORK/audio/M112_P1276A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000682_P1276A.mp4",
+  "start_s": 44.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1276A close-talk mic), from 44.500 s",
+  "src_mean_volume_db": -37.5,
+  "src_max_volume_db": -15.6,
+  "gain_db": 14.6,
+  "mean_volume_db": -22.9,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M113_P1276A": {
+  "path": "$WORK/audio/M113_P1276A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2020_I00000681_P1276A.mp4",
+  "start_s": 166.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1276A close-talk mic), from 166.000 s",
+  "src_mean_volume_db": -42.7,
+  "src_max_volume_db": -19.5,
+  "gain_db": 18.5,
+  "mean_volume_db": -24.2,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M114_P1277A": {
+  "path": "$WORK/audio/M114_P1277A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2021_I00001117_P1277A.mp4",
+  "start_s": 163.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1277A close-talk mic), from 163.500 s",
+  "src_mean_volume_db": -41.2,
+  "src_max_volume_db": -20.4,
+  "gain_db": 19.2,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M115_P1277A": {
+  "path": "$WORK/audio/M115_P1277A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2021_I00001119_P1277A.mp4",
+  "start_s": 270.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1277A close-talk mic), from 270.000 s",
+  "src_mean_volume_db": -40.1,
+  "src_max_volume_db": -17.3,
+  "gain_db": 16.3,
+  "mean_volume_db": -23.8,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M116_P1277A": {
+  "path": "$WORK/audio/M116_P1277A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2022_I00001201_P1277A.mp4",
+  "start_s": 165.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1277A close-talk mic), from 165.500 s",
+  "src_mean_volume_db": -38.2,
+  "src_max_volume_db": -13.0,
+  "gain_db": 12.0,
+  "mean_volume_db": -26.2,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M117_P1277A": {
+  "path": "$WORK/audio/M117_P1277A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2021_I00001116_P1277A.mp4",
+  "start_s": 114.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -36.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1277A close-talk mic), from 114.500 s",
+  "src_mean_volume_db": -36.6,
+  "src_max_volume_db": -17.1,
+  "gain_db": 14.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.4,
+  "has_audio": true
+ },
+ "M118_P1277A": {
+  "path": "$WORK/audio/M118_P1277A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2022_I00001204_P1277A.mp4",
+  "start_s": 79.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.2,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1277A close-talk mic), from 79.500 s",
+  "src_mean_volume_db": -45.8,
+  "src_max_volume_db": -27.2,
+  "gain_db": 23.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.2,
+  "has_audio": true
+ },
+ "M119_P1281A": {
+  "path": "$WORK/audio/M119_P1281A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001079_P1281A.mp4",
+  "start_s": 253.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -47.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 253.500 s",
+  "src_mean_volume_db": -47.6,
+  "src_max_volume_db": -31.6,
+  "gain_db": 25.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -5.9,
+  "has_audio": true
+ },
+ "M120_P1281A": {
+  "path": "$WORK/audio/M120_P1281A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001081_P1281A.mp4",
+  "start_s": 28.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 28.000 s",
+  "src_mean_volume_db": -39.8,
+  "src_max_volume_db": -19.7,
+  "gain_db": 17.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.9,
+  "has_audio": true
+ },
+ "M121_P1281A": {
+  "path": "$WORK/audio/M121_P1281A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001080_P1281A.mp4",
+  "start_s": 58.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 58.000 s",
+  "src_mean_volume_db": -40.8,
+  "src_max_volume_db": -22.1,
+  "gain_db": 18.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.3,
+  "has_audio": true
+ },
+ "M122_P1281A": {
+  "path": "$WORK/audio/M122_P1281A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2089_I00001165_P1281A.mp4",
+  "start_s": 56.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -32.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 56.000 s",
+  "src_mean_volume_db": -32.4,
+  "src_max_volume_db": -12.8,
+  "gain_db": 10.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.7,
+  "has_audio": true
+ },
+ "M123_P1281A": {
+  "path": "$WORK/audio/M123_P1281A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001083_P1281A.mp4",
+  "start_s": 150.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -45.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 150.500 s",
+  "src_mean_volume_db": -45.8,
+  "src_max_volume_db": -24.7,
+  "gain_db": 23.7,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M124_P1282A": {
+  "path": "$WORK/audio/M124_P1282A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001079_P1282A.mp4",
+  "start_s": 63.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1282A close-talk mic), from 63.000 s",
+  "src_mean_volume_db": -43.3,
+  "src_max_volume_db": -22.2,
+  "gain_db": 21.2,
+  "mean_volume_db": -22.2,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M125_P1282A": {
+  "path": "$WORK/audio/M125_P1282A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2091_I00001103_P1282A.mp4",
+  "start_s": 136.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -34.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1282A close-talk mic), from 136.000 s",
+  "src_mean_volume_db": -34.5,
+  "src_max_volume_db": -15.7,
+  "gain_db": 12.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.2,
+  "has_audio": true
+ },
+ "M126_P1282A": {
+  "path": "$WORK/audio/M126_P1282A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001083_P1282A.mp4",
+  "start_s": 126.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1282A close-talk mic), from 126.500 s",
+  "src_mean_volume_db": -37.6,
+  "src_max_volume_db": -17.8,
+  "gain_db": 15.6,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -2.4,
+  "has_audio": true
+ },
+ "M127_P1282A": {
+  "path": "$WORK/audio/M127_P1282A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2025_I00001080_P1282A.mp4",
+  "start_s": 131.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1282A close-talk mic), from 131.500 s",
+  "src_mean_volume_db": -40.7,
+  "src_max_volume_db": -22.4,
+  "gain_db": 18.7,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.8,
+  "has_audio": true
+ },
+ "M128_P1282A": {
+  "path": "$WORK/audio/M128_P1282A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2091_I00001100_P1282A.mp4",
+  "start_s": 30.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -34.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1282A close-talk mic), from 30.500 s",
+  "src_mean_volume_db": -34.7,
+  "src_max_volume_db": -13.7,
+  "gain_db": 12.7,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "M129_P1346A": {
+  "path": "$WORK/audio/M129_P1346A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2090_I00001011_P1346A.mp4",
+  "start_s": 54.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1346A close-talk mic), from 54.500 s",
+  "src_mean_volume_db": -41.7,
+  "src_max_volume_db": -19.2,
+  "gain_db": 18.2,
+  "mean_volume_db": -23.5,
+  "max_volume_db": -1.3,
+  "has_audio": true
+ },
+ "M130_P1346A": {
+  "path": "$WORK/audio/M130_P1346A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2090_I00001010_P1346A.mp4",
+  "start_s": 95.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -36.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1346A close-talk mic), from 95.000 s",
+  "src_mean_volume_db": -36.8,
+  "src_max_volume_db": -18.4,
+  "gain_db": 14.8,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.6,
+  "has_audio": true
+ },
+ "M131_P1346A": {
+  "path": "$WORK/audio/M131_P1346A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2089_I00001160_P1346A.mp4",
+  "start_s": 94.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1346A close-talk mic), from 94.000 s",
+  "src_mean_volume_db": -42.7,
+  "src_max_volume_db": -21.2,
+  "gain_db": 20.2,
+  "mean_volume_db": -22.5,
+  "max_volume_db": -1.2,
+  "has_audio": true
+ },
+ "M132_P1346A": {
+  "path": "$WORK/audio/M132_P1346A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2089_I00001165_P1346A.mp4",
+  "start_s": 97.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1346A close-talk mic), from 97.500 s",
+  "src_mean_volume_db": -38.7,
+  "src_max_volume_db": -16.1,
+  "gain_db": 15.1,
+  "mean_volume_db": -23.6,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M133_P1346A": {
+  "path": "$WORK/audio/M133_P1346A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2090_I00001013_P1346A.mp4",
+  "start_s": 99.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -35.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1346A close-talk mic), from 99.500 s",
+  "src_mean_volume_db": -35.7,
+  "src_max_volume_db": -14.3,
+  "gain_db": 13.3,
+  "mean_volume_db": -22.5,
+  "max_volume_db": -0.8,
+  "has_audio": true
+ },
+ "M134_P1347A": {
+  "path": "$WORK/audio/M134_P1347A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2091_I00001095_P1347A.mp4",
+  "start_s": 27.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -36.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1347A close-talk mic), from 27.500 s",
+  "src_mean_volume_db": -36.5,
+  "src_max_volume_db": -15.6,
+  "gain_db": 14.5,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "M135_P1347A": {
+  "path": "$WORK/audio/M135_P1347A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2090_I00001011_P1347A.mp4",
+  "start_s": 70.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -39.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1347A close-talk mic), from 70.000 s",
+  "src_mean_volume_db": -39.6,
+  "src_max_volume_db": -19.0,
+  "gain_db": 17.6,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -1.5,
+  "has_audio": true
+ },
+ "M136_P1347A": {
+  "path": "$WORK/audio/M136_P1347A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2091_I00001103_P1347A.mp4",
+  "start_s": 21.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1347A close-talk mic), from 21.000 s",
+  "src_mean_volume_db": -38.0,
+  "src_max_volume_db": -16.6,
+  "gain_db": 15.6,
+  "mean_volume_db": -22.4,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "M137_P1347A": {
+  "path": "$WORK/audio/M137_P1347A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2090_I00001010_P1347A.mp4",
+  "start_s": 221.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -34.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1347A close-talk mic), from 221.500 s",
+  "src_mean_volume_db": -34.7,
+  "src_max_volume_db": -12.1,
+  "gain_db": 11.1,
+  "mean_volume_db": -23.6,
+  "max_volume_db": -0.4,
+  "has_audio": true
+ },
+ "M138_P1347A": {
+  "path": "$WORK/audio/M138_P1347A.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2091_I00001102_P1347A.mp4",
+  "start_s": 99.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -35.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1347A close-talk mic), from 99.000 s",
+  "src_mean_volume_db": -35.1,
+  "src_max_volume_db": -13.0,
+  "gain_db": 12.0,
+  "mean_volume_db": -23.1,
+  "max_volume_db": -1.1,
+  "has_audio": true
+ },
+ "N000_P0115": {
+  "path": "$WORK/audio/N000_P0115.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1823_I00000271_P0115.mp4",
+  "start_s": 36.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -46.4,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0115": 0.943,
+    "partner P1174": 0.12
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0115 close-talk mic), from 36.500 s",
+  "src_mean_volume_db": -46.4,
+  "src_max_volume_db": -29.2,
+  "gain_db": 24.4,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -4.6,
+  "has_audio": true
+ },
+ "S01a": {
+  "path": "$WORK/audio/S01a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0080_I00000379_P0115.mp4",
+  "start_s": 178.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -31.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0115": 0.685,
+    "partner P0116": -0.197
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0115 close-talk mic), from 178.500 s",
+  "src_mean_volume_db": -31.9,
+  "src_max_volume_db": -15.3,
+  "gain_db": 9.9,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -5.4,
+  "has_audio": true
+ },
+ "S01b": {
+  "path": "$WORK/audio/S01b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0080_I00000379_P0115.mp4",
+  "start_s": 188.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -33.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0115": 0.777,
+    "partner P0116": -0.198
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0115 close-talk mic), from 188.500 s",
+  "src_mean_volume_db": -33.9,
+  "src_max_volume_db": -16.3,
+  "gain_db": 11.9,
+  "mean_volume_db": -21.9,
+  "max_volume_db": -2.6,
+  "has_audio": true
+ },
+ "S02a": {
+  "path": "$WORK/audio/S02a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0255_I00000126_P0350.mp4",
+  "start_s": 165.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0350": 0.832,
+    "partner P0351": -0.049
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0350 close-talk mic), from 165.500 s",
+  "src_mean_volume_db": -38.6,
+  "src_max_volume_db": -15.8,
+  "gain_db": 14.8,
+  "mean_volume_db": -23.8,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "S04a": {
+  "path": "$WORK/audio/S04a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0360_I00000372_P0485.mp4",
+  "start_s": 131.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0484": -0.639,
+    "own P0485": 0.774
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0485 close-talk mic), from 131.000 s",
+  "src_mean_volume_db": -43.7,
+  "src_max_volume_db": -22.3,
+  "gain_db": 21.3,
+  "mean_volume_db": -22.4,
+  "max_volume_db": -1.0,
+  "has_audio": true
+ },
+ "S04b": {
+  "path": "$WORK/audio/S04b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0360_I00000372_P0485.mp4",
+  "start_s": 141.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0484": -0.12,
+    "own P0485": 0.601
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0485 close-talk mic), from 141.000 s",
+  "src_mean_volume_db": -44.9,
+  "src_max_volume_db": -26.0,
+  "gain_db": 22.9,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -3.1,
+  "has_audio": true
+ },
+ "S05a": {
+  "path": "$WORK/audio/S05a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1085_I00000188_P1076.mp4",
+  "start_s": 31.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -32.7,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0989": -0.089,
+    "own P1076": 0.917
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1076 close-talk mic), from 31.000 s",
+  "src_mean_volume_db": -32.7,
+  "src_max_volume_db": -15.4,
+  "gain_db": 10.7,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -4.8,
+  "has_audio": true
+ },
+ "S05b": {
+  "path": "$WORK/audio/S05b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S1085_I00000188_P1076.mp4",
+  "start_s": 41.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -32.3,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "partner P0989": 0.058,
+    "own P1076": 0.932
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1076 close-talk mic), from 41.000 s",
+  "src_mean_volume_db": -32.2,
+  "src_max_volume_db": -15.3,
+  "gain_db": 10.2,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -5.4,
+  "has_audio": true
+ },
+ "S06a": {
+  "path": "$WORK/audio/S06a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000126_P0467.mp4",
+  "start_s": 18.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -44.8,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0467": 0.928,
+    "partner P0697": 0.289
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0467 close-talk mic), from 18.000 s",
+  "src_mean_volume_db": -44.8,
+  "src_max_volume_db": -26.4,
+  "gain_db": 22.8,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -3.5,
+  "has_audio": true
+ },
+ "S06b": {
+  "path": "$WORK/audio/S06b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000126_P0467.mp4",
+  "start_s": 28.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -43.0,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {
+    "own P0467": 0.936,
+    "partner P0697": -0.255
+   }
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0467 close-talk mic), from 28.000 s",
+  "src_mean_volume_db": -43.0,
+  "src_max_volume_db": -26.4,
+  "gain_db": 21.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -5.4,
+  "has_audio": true
+ },
+ "S08a": {
+  "path": "$WORK/audio/S08a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000487_P0845.mp4",
+  "start_s": 155.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -37.9,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0845 close-talk mic), from 155.500 s",
+  "src_mean_volume_db": -37.9,
+  "src_max_volume_db": -17.3,
+  "gain_db": 15.9,
+  "mean_volume_db": -22.1,
+  "max_volume_db": -1.4,
+  "has_audio": true
+ },
+ "S08b": {
+  "path": "$WORK/audio/S08b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000487_P0845.mp4",
+  "start_s": 165.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -38.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0845 close-talk mic), from 165.500 s",
+  "src_mean_volume_db": -38.6,
+  "src_max_volume_db": -20.0,
+  "gain_db": 16.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.4,
+  "has_audio": true
+ },
+ "S09b": {
+  "path": "$WORK/audio/S09b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000307_P0844A.mp4",
+  "start_s": 97.5,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -41.5,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0844A close-talk mic), from 97.500 s",
+  "src_mean_volume_db": -41.6,
+  "src_max_volume_db": -18.8,
+  "gain_db": 17.8,
+  "mean_volume_db": -23.8,
+  "max_volume_db": -1.3,
+  "has_audio": true
+ },
+ "S11a": {
+  "path": "$WORK/audio/S11a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000165_P0731.mp4",
+  "start_s": 79.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -42.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0731 close-talk mic), from 79.000 s",
+  "src_mean_volume_db": -42.6,
+  "src_max_volume_db": -24.0,
+  "gain_db": 20.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.6,
+  "has_audio": true
+ },
+ "S11b": {
+  "path": "$WORK/audio/S11b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000165_P0731.mp4",
+  "start_s": 89.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -40.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P0731 close-talk mic), from 89.000 s",
+  "src_mean_volume_db": -40.6,
+  "src_max_volume_db": -22.2,
+  "gain_db": 18.6,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -3.5,
+  "has_audio": true
+ },
+ "S12a": {
+  "path": "$WORK/audio/S12a.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2089_I00001165_P1281A.mp4",
+  "start_s": 28.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -35.1,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 28.000 s",
+  "src_mean_volume_db": -35.1,
+  "src_max_volume_db": -15.7,
+  "gain_db": 13.1,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.6,
+  "has_audio": true
+ },
+ "S12b": {
+  "path": "$WORK/audio/S12b.m4a",
+  "kind": "pair",
+  "src_file": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2089_I00001165_P1281A.mp4",
+  "start_s": 38.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "channel_db": [
+   -34.6,
+   -240.0
+  ],
+  "src_check": {
+   "env_corr_with_closetalk_wav": {}
+  },
+  "source": "Seamless source mp4 AAC track (channel 0 of 2; = participant P1281A close-talk mic), from 38.000 s",
+  "src_mean_volume_db": -34.7,
+  "src_max_volume_db": -15.0,
+  "gain_db": 12.7,
+  "mean_volume_db": -21.9,
+  "max_volume_db": -0.3,
+  "has_audio": true
+ },
+ "juno_01": {
+  "path": "$WORK/audio/juno_01.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-12/084218-dev-juno-1da1f008.mp4",
+  "start_s": 12.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 12.000 s; character Juno",
+  "session": {
+   "voice_label": "Gemini 3.8 Live",
+   "automated": true,
+   "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+   "duration_s": 298.4
+  },
+  "src_mean_volume_db": -23.0,
+  "src_max_volume_db": -1.4,
+  "gain_db": 0.4,
+  "mean_volume_db": -23.0,
+  "max_volume_db": -1.4,
+  "has_audio": true
+ },
+ "juno_02": {
+  "path": "$WORK/audio/juno_02.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-12/084218-dev-juno-1da1f008.mp4",
+  "start_s": 42.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 42.000 s; character Juno",
+  "session": {
+   "voice_label": "Gemini 3.8 Live",
+   "automated": true,
+   "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+   "duration_s": 298.4
+  },
+  "src_mean_volume_db": -20.1,
+  "src_max_volume_db": -1.5,
+  "gain_db": 0.0,
+  "mean_volume_db": -20.1,
+  "max_volume_db": -1.5,
+  "has_audio": true
+ },
+ "juno_03": {
+  "path": "$WORK/audio/juno_03.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-12/084218-dev-juno-1da1f008.mp4",
+  "start_s": 75.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 75.000 s; character Juno",
+  "session": {
+   "voice_label": "Gemini 3.8 Live",
+   "automated": true,
+   "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+   "duration_s": 298.4
+  },
+  "src_mean_volume_db": -17.0,
+  "src_max_volume_db": -1.3,
+  "gain_db": 0.0,
+  "mean_volume_db": -17.0,
+  "max_volume_db": -1.3,
+  "has_audio": true
+ },
+ "juno_04": {
+  "path": "$WORK/audio/juno_04.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-12/040155-devcloud-juno-0ac4e631.mp4",
+  "start_s": 52.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 52.000 s; character Juno",
+  "session": {
+   "voice_label": "Gemini 3.8 Live",
+   "automated": true,
+   "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+   "duration_s": 251.1
+  },
+  "src_mean_volume_db": -66.3,
+  "src_max_volume_db": -53.7,
+  "gain_db": 0.0,
+  "mean_volume_db": -66.3,
+  "max_volume_db": -53.7,
+  "has_audio": true,
+  "note": "no speech in this stretch: the source track sits at its noise floor (mean -66.3 dB, max -53.7 dB); kept unamplified"
+ },
+ "muse_01": {
+  "path": "$WORK/audio/muse_01.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-11/151051-devcloud-muse-fe47deaf.mp4",
+  "start_s": 70.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 70.000 s; character Muse",
+  "session": {
+   "voice_label": "Realtime 2.1",
+   "automated": false,
+   "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+   "duration_s": 485.77
+  },
+  "src_mean_volume_db": -25.2,
+  "src_max_volume_db": -5.6,
+  "gain_db": 3.2,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.4,
+  "has_audio": true
+ },
+ "muse_02": {
+  "path": "$WORK/audio/muse_02.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-11/151051-devcloud-muse-fe47deaf.mp4",
+  "start_s": 140.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 140.000 s; character Muse",
+  "session": {
+   "voice_label": "Realtime 2.1",
+   "automated": false,
+   "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+   "duration_s": 485.77
+  },
+  "src_mean_volume_db": -25.6,
+  "src_max_volume_db": -2.8,
+  "gain_db": 1.8,
+  "mean_volume_db": -23.8,
+  "max_volume_db": -0.9,
+  "has_audio": true
+ },
+ "muse_03": {
+  "path": "$WORK/audio/muse_03.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-11/151051-devcloud-muse-fe47deaf.mp4",
+  "start_s": 210.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 210.000 s; character Muse",
+  "session": {
+   "voice_label": "Realtime 2.1",
+   "automated": false,
+   "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+   "duration_s": 485.77
+  },
+  "src_mean_volume_db": -19.2,
+  "src_max_volume_db": 0.0,
+  "gain_db": 0.0,
+  "mean_volume_db": -19.2,
+  "max_volume_db": 0.0,
+  "has_audio": true
+ },
+ "muse_04": {
+  "path": "$WORK/audio/muse_04.m4a",
+  "kind": "drive",
+  "src_file": "$AVATAR_SESSIONS/2026-11-11/151051-devcloud-muse-fe47deaf.mp4",
+  "start_s": 280.0,
+  "duration_s": 8.0,
+  "offset_ms_applied": 0.0,
+  "source": "avatar session recording AAC (mono mix of the user mic + the avatar voice as heard, per recorder.js), from 280.000 s; character Muse",
+  "session": {
+   "voice_label": "Realtime 2.1",
+   "automated": false,
+   "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+   "duration_s": 485.77
+  },
+  "src_mean_volume_db": -24.0,
+  "src_max_volume_db": -4.5,
+  "gain_db": 2.0,
+  "mean_volume_db": -22.0,
+  "max_volume_db": -2.5,
+  "has_audio": true
+ }
+}

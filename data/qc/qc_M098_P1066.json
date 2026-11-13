@@ -1,0 +1,19 @@
+{
+ "M098_P1066": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4447636306285858,
+  "render_face_width_frac": 0.4413207024335861,
+  "face_center_offset_real_minus_render": [
+   -0.0031494274735450745,
+   -0.008670438081026077
+  ],
+  "mouth_corr": 0.9554895647811078,
+  "best_lag": 0,
+  "best_corr": 0.9554895647811078
+ }
+}

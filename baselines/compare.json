@@ -1,0 +1,62 @@
+{
+ "families": [
+  {
+   "name": "SD-Turbo (1 step per frame)",
+   "track": "fast",
+   "base": "base_s025",
+   "tuned": "turbo_lora",
+   "base_label": "SD-Turbo base, strength 0.25",
+   "tuned_label": "SD-Turbo + our LoRA",
+   "speed_base": {
+    "ms": 30.06,
+    "gpu": "RTX 4090"
+   },
+   "speed_tuned": {
+    "ms": 30.67,
+    "gpu": "RTX 4090"
+   }
+  },
+  {
+   "name": "Wan 2.1 VACE, with text prompt (6 steps)",
+   "track": "wan",
+   "base": "base_prompt_cv6",
+   "tuned": "lora_prompt_cv6",
+   "base_label": "Wan VACE base + prompt",
+   "tuned_label": "Wan VACE + our LoRA + prompt",
+   "speed_base": {
+    "ms": 137.8,
+    "gpu": "RTX PRO 4500"
+   },
+   "speed_tuned": {
+    "ms": 137.4,
+    "gpu": "RTX PRO 4500"
+   }
+  },
+  {
+   "name": "Wan 2.1 VACE, no text prompt (6 steps)",
+   "track": "wan",
+   "base": "base_causvid_s6",
+   "tuned": "lora_causvid_s6",
+   "base_label": "Wan VACE base, generic prompt",
+   "tuned_label": "Wan VACE + our LoRA, generic prompt",
+   "speed_base": {
+    "ms": 137.8,
+    "gpu": "RTX PRO 4500"
+   },
+   "speed_tuned": {
+    "ms": 137.4,
+    "gpu": "RTX PRO 4500"
+   }
+  }
+ ],
+ "heldout": [
+  "M023_P0370",
+  "M075_P0845",
+  "M099_P1067"
+ ],
+ "drive": [
+  "juno_01",
+  "muse_01"
+ ],
+ "notes_html": "<h4>How the SD-Turbo strength was picked</h4><p class=\"legend\">Strength is how much noise is added to the render before the single denoising step. The pick was made on 6 training clips that are not in the test set, by a rule fixed before looking: judge realism (out of 10) &times; mouth correlation. Strength 0.25 won (it keeps the lips but barely changes the look); 0.75 looks the most photographic but swaps the person and loses the lips. Test-set numbers for every strength are shown so nothing is hidden.</p><div class=\"tw\"><table class=\"num\"><thead><tr><th>SD-Turbo base, no fine-tune</th><th>pick score (6 other clips)</th><th>realism, held-out</th><th>lip sync, held-out</th><th>blinks kept</th><th>realism, our avatars</th><th>lip sync, our avatars</th></tr></thead><tbody><tr><td>strength 0.25 <b>(picked)</b></td><td>0.235</td><td>2.4</td><td>0.90</td><td>0.91</td><td>2.1</td><td>0.57</td></tr><tr><td>strength 0.5</td><td>0.203</td><td>2.7</td><td>0.63</td><td>0.35</td><td>2.2</td><td>0.18</td></tr><tr><td>strength 0.75</td><td>0.074</td><td>3.1</td><td>0.14</td><td>0.06</td><td>3.5</td><td>0.23</td></tr><tr><td>strength untrained fine-tune wiring</td><td>0.057</td><td>&ndash;</td><td>0.47</td><td>0.72</td><td>&ndash;</td><td>0.04</td></tr></tbody></table></div><p class=\"legend\">The last row is the fine-tuned model's exact wiring with no trained weights; it gives false-colour mush and was not sent to the test-set judge. Speed: SD-Turbo numbers were both measured on one RTX 4090 (no RTX 5090 was available; the fine-tuned model measured 21.3 ms on a 5090 earlier). Wan numbers were both measured on one RTX PRO 4500. Fine-tuning does not change speed, because the LoRA is merged into the weights. The Wan runs, base and fine-tuned alike, use the public CausVid 6-step sampler add-on, which is not our training.</p>"
+}

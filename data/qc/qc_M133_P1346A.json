@@ -1,0 +1,19 @@
+{
+ "M133_P1346A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4570145681500435,
+  "render_face_width_frac": 0.44863883405923843,
+  "face_center_offset_real_minus_render": [
+   -0.002744380384683609,
+   -0.00918571650981903
+  ],
+  "mouth_corr": 0.9613135326900434,
+  "best_lag": 0,
+  "best_corr": 0.9613135326900434
+ }
+}

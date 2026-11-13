@@ -1,0 +1,9 @@
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1794507200.727191 3079275 face_landmarker_graph.cc:181] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1794507200.765908 3079294 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794507200.790764 3079295 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794507207.269999 3079729 face_landmarker_graph.cc:181] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1794507207.279831 3079739 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794507207.307546 3079740 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+M093_P1020 {"frames_real": 240, "frames_render": 240, "cov_real": 1.0, "cov_render": 1.0, "second_face_real": 0.0, "face_inside": 1.0, "face_width_frac": 0.4290643185377121, "render_face_width_frac": 0.4248579889535904, "face_center_offset_real_minus_render": [0.0028618350625038147, 0.0022181421518325806], "mouth_corr": 0.9762412458940906, "best_lag": 0, "best_corr": 0.9762412458940906}

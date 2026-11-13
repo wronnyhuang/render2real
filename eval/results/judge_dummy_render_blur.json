@@ -1,0 +1,122 @@
+{
+ "track": "dummy",
+ "variant": "render_blur",
+ "model": "sonnet",
+ "made": "2026-11-12 12:50:30",
+ "clips": {
+  "S01a": {
+   "clip": "S01a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 9,
+     "same_pose_any": 9,
+     "reason": "Both are clearly CG 3D-rendered characters with flat grey shading. B is slightly softer and more video-like, but it still looks like a render. The pose and mouth shapes match A almost exactly in every frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 9,
+     "reason": "Both are clearly CG avatars with the same flat grey hair and body. B has slightly richer skin texture and shading, so it looks a bit less plastic. Pose, expression and mouth shape match closely in every frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "real",
+     "output"
+    ],
+    "render": 1,
+    "real": 9,
+    "output": 1,
+    "reason": "X and Z are clearly 3D-rendered cartoon avatars with smooth plastic skin and simplified features; Z is a slightly blurrier copy of X. Y shows a real elderly man with natural skin texture, a lavalier mic and a Nike shirt, and looks like genuine camera footage."
+   },
+   "split": "train"
+  },
+  "S02a": {
+   "clip": "S02a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 9,
+     "same_pose_any": 9,
+     "reason": "Both are clearly CG avatars with flat gray backgrounds, a flat red costume and a plastic-looking face. B is slightly softer and more photographic in its skin shading, but it is still obviously CG. Pose, expression and mouth shapes match A almost frame for frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 9,
+     "reason": "Both are clearly CG avatars with flat gray backgrounds and a cartoon-like look; B has slightly more skin texture and facial detail, and it matches A's pose, blink and mouth shapes almost frame for frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 2,
+    "output": 2,
+    "real": 9,
+    "reason": "X and Y are CG avatars with flat-shaded hair, smooth skin, and a blocky red costume. Y is slightly blurrier than X, but both are clearly rendered. Z shows a real woman with natural skin texture, pores, wrinkles, earrings, and a leather jacket, and looks like camera footage."
+   },
+   "split": "train"
+  }
+ },
+ "summary": {
+  "clips": 2,
+  "trials": 4,
+  "output_win_rate": 0.5,
+  "output_win_ci95_wilson": [
+   0.15,
+   0.85
+  ],
+  "output_win_rate_clipmean": 0.5,
+  "output_win_ci95_bootstrap_clips": [
+   0.5,
+   0.5
+  ],
+  "order_consistency": 0.0,
+  "mean_realism_render": 2.5,
+  "mean_realism_output": 2.25,
+  "mean_same_pose_any": 9.0,
+  "three_way_mean_render": 1.5,
+  "three_way_mean_output": 1.5,
+  "three_way_mean_real": 9.0,
+  "three_way_n": 2
+ },
+ "summary_heldout": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ },
+ "summary_drive": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ }
+}

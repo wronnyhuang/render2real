@@ -1,0 +1,26 @@
+{
+ "base_s025": {
+  "frames": 6720,
+  "unet_forward_calls": 840,
+  "unet_samples": 6720,
+  "sec": 321.4
+ },
+ "base_s050": {
+  "frames": 6720,
+  "unet_forward_calls": 840,
+  "unet_samples": 6720,
+  "sec": 324.1
+ },
+ "base_s075": {
+  "frames": 6720,
+  "unet_forward_calls": 840,
+  "unet_samples": 6720,
+  "sec": 322.5
+ },
+ "base_asft": {
+  "frames": 6720,
+  "unet_forward_calls": 840,
+  "unet_samples": 6720,
+  "sec": 436.8
+ }
+}

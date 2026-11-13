@@ -1,0 +1,98 @@
+{
+ "track": "wan",
+ "variant": "z_raw_s30",
+ "model": "sonnet",
+ "made": "2026-11-12 15:53:12",
+ "clips": {
+  "S01a": {
+   "clip": "S01a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 9,
+     "same_pose_any": 9,
+     "reason": "Both are clearly CG heads. B has more photographic lighting, texture and a blurry real-looking background, but it still looks like a render. B matches A's head pose and mouth closely in every frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 8,
+     "reason": "Both are CG avatars; A has more photographic lighting, skin texture and a real-looking background, while B is flat gray and clearly a render. B closely matches A's head pose and mouth shapes frame by frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "real",
+     "output"
+    ],
+    "render": 1,
+    "real": 10,
+    "output": 2,
+    "reason": "X is an untextured 3D avatar with a flat gray background. Y shows real skin texture, a lavalier mic, natural motion and a real hand, so it reads as a camera recording. Z is the same CG avatar as X with a color grade and blur, and it still reads as a render."
+   },
+   "split": null
+  }
+ },
+ "summary": {
+  "clips": 1,
+  "trials": 2,
+  "output_win_rate": 1.0,
+  "output_win_ci95_wilson": [
+   0.342,
+   1
+  ],
+  "output_win_rate_clipmean": 1.0,
+  "output_win_ci95_bootstrap_clips": [
+   1.0,
+   1.0
+  ],
+  "order_consistency": 1.0,
+  "mean_realism_render": 2.0,
+  "mean_realism_output": 3.0,
+  "mean_same_pose_any": 8.5,
+  "three_way_mean_render": 1.0,
+  "three_way_mean_output": 2.0,
+  "three_way_mean_real": 10.0,
+  "three_way_n": 1
+ },
+ "summary_heldout": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ },
+ "summary_drive": {
+  "clips": 1,
+  "trials": 2,
+  "output_win_rate": 1.0,
+  "output_win_ci95_wilson": [
+   0.342,
+   1
+  ],
+  "output_win_rate_clipmean": 1.0,
+  "output_win_ci95_bootstrap_clips": [
+   1.0,
+   1.0
+  ],
+  "order_consistency": 1.0,
+  "mean_realism_render": 2.0,
+  "mean_realism_output": 3.0,
+  "mean_same_pose_any": 8.5,
+  "three_way_mean_render": 1.0,
+  "three_way_mean_output": 2.0,
+  "three_way_mean_real": 10.0,
+  "three_way_n": 1
+ }
+}

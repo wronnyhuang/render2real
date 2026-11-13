@@ -1,0 +1,19 @@
+{
+ "M063_P0801": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4593263119459152,
+  "render_face_width_frac": 0.43990445137023926,
+  "face_center_offset_real_minus_render": [
+   -6.51925802230835e-06,
+   -0.0050035566091537476
+  ],
+  "mouth_corr": 0.9797370051692761,
+  "best_lag": 0,
+  "best_corr": 0.9797370051692761
+ }
+}

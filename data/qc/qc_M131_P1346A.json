@@ -1,0 +1,19 @@
+{
+ "M131_P1346A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4682602286338806,
+  "render_face_width_frac": 0.45889709144830704,
+  "face_center_offset_real_minus_render": [
+   -0.000303804874420166,
+   -0.010171409696340561
+  ],
+  "mouth_corr": 0.9369286227541952,
+  "best_lag": 0,
+  "best_corr": 0.9369286227541952
+ }
+}

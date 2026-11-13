@@ -1,0 +1,270 @@
+{
+ "track": "fast",
+ "variant": "base_s050",
+ "model": "sonnet",
+ "made": "2026-11-13 00:16:11",
+ "clips": {
+  "M015_P0350": {
+   "clip": "M015_P0350",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 4,
+     "same_pose_any": 4,
+     "reason": "Both are clearly CG avatars; B has slightly more natural skin and shading but identity, glasses and headwear change between frames, and the expressions only loosely match A."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "Both are obvious CG characters. A has slightly more natural face shading, while B is cruder and low-poly. B's poses and mouth shapes only loosely match A's, and A has glasses and a different hat band."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 2,
+    "real": 10,
+    "render": 2,
+    "reason": "X and Z are clearly CG renders. X has smooth flat shading and a cartoon cap-like hair. Z has low-poly geometry, flat red shirt and a bald-cap hair shape. Y shows a real woman with natural skin texture, pores, and consistent lighting, and it looks like real camera footage."
+   },
+   "split": "train"
+  },
+  "M039_P0566": {
+   "clip": "M039_P0566",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "Both are obvious CG heads; B has smoother shading and more detailed skin and shirt, but its identity and features shift between frames (a cap-like scalp, odd eyes), and its poses and mouths only loosely match A's."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "Both are obvious CG renders. A has softer shading and more natural skin and face detail, while B has flat drawn brows, a torn collar and a hard background split. B only loosely follows A's head tilts and mouth shapes."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 1,
+    "output": 2,
+    "real": 10,
+    "reason": "X is a flat-shaded low-poly CG head with a jagged collar. Y is a smooth 3D render whose face identity and hair change between frames. Z shows natural skin texture, pores, and lighting, and the expressions are consistent, so it looks like real camera footage."
+   },
+   "split": "train"
+  },
+  "M060_P0801": {
+   "clip": "M060_P0801",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 4,
+     "same_pose_any": 4,
+     "reason": "Both are CG avatars; B has slightly more realistic skin and shading, but its identity, hair and expressions differ from A's frame by frame, though mouth open/closed timing is loosely similar."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 4,
+     "reason": "Both are clearly CG avatars; A has slightly more natural skin shading and hair, B looks blockier and more game-like. B's mouth shapes and expressions only loosely match A's frame by frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "output",
+     "render"
+    ],
+    "real": 9,
+    "output": 2,
+    "render": 1,
+    "reason": "X shows a real person with natural skin texture, hair detail, and expressions. Y is a clearly rendered 3D avatar with smooth shading and a helmet-like hair shape. Z is a lower-quality, blocky CG avatar with flat polygonal hair and clothing."
+   },
+   "split": "train"
+  },
+  "M085_P0947": {
+   "clip": "M085_P0947",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "Both are CG characters; B has softer shading and more skin-like detail, but its identity changes (the first frame has hair and the rest are bald, with no mustache). Its expression is a wide smile where A's mouth is open mid-speech."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "Both are obvious CG characters; A has slightly softer skin shading, while B is flat with a painted mustache. B has a different identity and a more neutral open mouth, whereas A shows broad smiles."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 9,
+    "render": 2,
+    "output": 2,
+    "reason": "X shows a real person with natural skin texture, piercings, and a clothing fabric pattern, so it looks like camera footage. Y is a smooth 3D character with flat shading and a cartoon mustache. Z is a stylized, plasticky CG face, and its hair and shirt change between frames."
+   },
+   "split": "train"
+  },
+  "M104_P1275A": {
+   "clip": "M104_P1275A",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 5,
+     "same_pose_any": 5,
+     "reason": "Both are obvious CG renders; B has smoother, more photo-like skin and eyes, but its expressions and head poses only loosely track A (e.g., A's closed eyes in frame 3 vs B's open, B's smile in frame 6)."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "Both are obvious CG renders; A has smoother, more natural skin and hair, while B looks lower-fidelity with jagged hair and a blocky collar. B follows A's mouth and head pose loosely, but the blink in frame 3 and the smile in frame 6 differ."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 1,
+    "output": 2,
+    "real": 10,
+    "reason": "X is a low-poly CG avatar with flat, helmet-like hair. Y is a smoother 3D render but still plainly CG. Z shows real skin texture, wrinkles, natural hair and expressions, so it looks like a real camera recording."
+   },
+   "split": "train"
+  },
+  "M129_P1346A": {
+   "clip": "M129_P1346A",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "Both are obvious CG avatars; B has smoother, more natural skin and shading but is a different character whose poses and mouth shapes only loosely match A."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 1,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 4,
+     "reason": "Both are obvious CG avatars; A has smoother skin and more natural shading, while B has a jagged beard texture and a broken neck. Head pose roughly tracks in a few frames, but the hat, expression and mouth shapes differ."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 9,
+    "render": 1,
+    "output": 2,
+    "reason": "X looks like a real camera recording of a man, with natural skin texture, stubble and expressions. Y is an obvious low-poly CG avatar with jagged beard patches. Z is a smooth 3D-rendered character with a plastic look and an odd hat."
+   },
+   "split": "train"
+  }
+ },
+ "summary": {
+  "clips": 6,
+  "trials": 12,
+  "output_win_rate": 1.0,
+  "output_win_ci95_wilson": [
+   0.757,
+   1
+  ],
+  "output_win_rate_clipmean": 1.0,
+  "output_win_ci95_bootstrap_clips": [
+   1.0,
+   1.0
+  ],
+  "order_consistency": 1.0,
+  "mean_realism_render": 1.75,
+  "mean_realism_output": 2.75,
+  "mean_same_pose_any": 3.75,
+  "three_way_mean_render": 1.33,
+  "three_way_mean_output": 2.0,
+  "three_way_mean_real": 9.5,
+  "three_way_n": 6
+ },
+ "summary_heldout": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ },
+ "summary_drive": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ }
+}

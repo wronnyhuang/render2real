@@ -1,0 +1,14 @@
+{
+ "M018_P0350": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4521227329969406,
+  "mouth_corr": 0.9597396522891419,
+  "best_lag": 0,
+  "best_corr": 0.9597396522891419
+ }
+}

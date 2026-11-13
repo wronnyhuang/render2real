@@ -1,0 +1,283 @@
+{
+ "track": "dummy",
+ "variant": "render_copy",
+ "model": "sonnet",
+ "made": "2026-11-12 12:58:15",
+ "clips": {
+  "S01a": {
+   "clip": "S01a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "Both strips look identical: a clearly CG, game-style character with a smooth, flat-shaded face and a stiff pencil-line eyebrow. Neither looks more real, so A is an arbitrary pick. Pose, expression and mouth shape match frame for frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips look identical: a clearly CG character with flat grey hair, simple shading and a cartoon-like face. Neither is distinguishable from the other, so the \"more real\" pick is arbitrary. Pose, expression and mouth shape match in every frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "real",
+     "output"
+    ],
+    "render": 1,
+    "real": 9,
+    "output": 1,
+    "reason": "X and Z: a smooth 3D-rendered avatar with plastic skin, a flat gray body and line-drawn eyebrows, so clearly CG. Y: a real elderly man with detailed skin, age spots, a lavalier mic and a Nike logo, and natural camera look and motion."
+   },
+   "split": "train"
+  },
+  "S02a": {
+   "clip": "S02a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "Both strips are the same CG character with a flat gray background, a blocky red costume and a smooth face. They look identical frame by frame, so neither is more real."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips are the same CG avatar with a flat grey background, plastic skin and a simple red costume. They look identical frame by frame, so neither is more real. B is only a forced pick."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 1,
+    "output": 1,
+    "real": 9,
+    "reason": "X and Y are the same flat-shaded 3D cartoon avatar (CG render). Z is a real woman with natural skin texture, pores, hair strands and compression artifacts, so it looks like real camera footage."
+   },
+   "split": "train"
+  },
+  "S04a": {
+   "clip": "S04a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "Both strips show the same low-poly 3D character on a flat grey background, with the same pose, expression, blink and mouth shapes in every frame. They look identical, so neither is more real. I picked A only because a choice was required."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips look identical: a flat-shaded CG character with a gray background, hard-edged eyebrows and pasted-on lips. Neither looks like a real person, so the realism pick is arbitrary. Pose, expression and mouth shape match in every frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 1,
+    "real": 9,
+    "render": 1,
+    "reason": "X and Z are the same flat-shaded 3D avatar: painted-on brows, jagged clothing textures, plain grey background, clearly CG. Y is a real woman with natural skin texture, gray hair strands, expressive micro-movements and a plausible interview setting."
+   },
+   "split": "train"
+  },
+  "S05a": {
+   "clip": "S05a",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 1,
+     "realism_output": 1,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "Both strips are the same stylized 3D cartoon character (clay-like curly hair, blocky pixel-pattern shirt, flat gray background) and look identical frame by frame, so neither looks like real footage and the realism pick is arbitrary."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips show the same stylized 3D-rendered cartoon character with matching frames, so neither looks like real footage. I picked A only because it can't be told apart from B."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "real",
+     "output"
+    ],
+    "render": 1,
+    "real": 9,
+    "output": 1,
+    "reason": "X and Z are identical-looking 3D cartoon avatars (smooth clay-like skin, blobby hair, flat blocky shirt). Y shows a real man with natural skin texture, stubble, wet hair, glasses reflections, a tie-dye shirt and a lav mic. It looks like genuine camera footage."
+   },
+   "split": "train"
+  },
+  "juno_01": {
+   "clip": "juno_01",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "Both strips look identical: the same stylized 3D animated character with a waxy render look, so neither reads as real footage. B is a forced pick."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips show the same stylized 3D animated character, and they look identical frame by frame. Neither looks like real footage, so the \"more real\" pick is arbitrary."
+    }
+   ],
+   "split": null
+  },
+  "juno_04": {
+   "clip": "juno_04",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "The two strips look identical: the same stylized CG 3D character, the same frames and the same poses, including the blink in frame 5. Both are obviously CG, so I picked A only because a choice was forced."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips look identical: the same stylized 3D-rendered character, with two black \"Warming up\" frames followed by the same four render frames. Neither looks like real camera footage, so the A pick is arbitrary."
+    }
+   ],
+   "split": null
+  },
+  "muse_01": {
+   "clip": "muse_01",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 10,
+     "same_pose_any": 10,
+     "reason": "Both strips show the same fuzzy 3D-rendered cartoon character in a classroom and look identical frame by frame, so neither looks like real footage; B is only a nominal pick."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 10,
+     "reason": "Both strips show the same fuzzy 3D-rendered cartoon character in a classroom, so neither looks like real footage. The frames look identical, so I picked A only as a tie-break."
+    }
+   ],
+   "split": null
+  }
+ },
+ "summary": {
+  "clips": 7,
+  "trials": 14,
+  "output_win_rate": 0.571,
+  "output_win_ci95_wilson": [
+   0.326,
+   0.786
+  ],
+  "output_win_rate_clipmean": 0.571,
+  "output_win_ci95_bootstrap_clips": [
+   0.357,
+   0.786
+  ],
+  "order_consistency": 0.429,
+  "mean_realism_render": 1.93,
+  "mean_realism_output": 1.93,
+  "mean_same_pose_any": 10.0,
+  "three_way_mean_render": 1.0,
+  "three_way_mean_output": 1.0,
+  "three_way_mean_real": 9.0,
+  "three_way_n": 4
+ },
+ "summary_heldout": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ },
+ "summary_drive": {
+  "clips": 3,
+  "trials": 6,
+  "output_win_rate": 0.833,
+  "output_win_ci95_wilson": [
+   0.436,
+   0.97
+  ],
+  "output_win_rate_clipmean": 0.833,
+  "output_win_ci95_bootstrap_clips": [
+   0.5,
+   1.0
+  ],
+  "order_consistency": 0.667,
+  "mean_realism_render": 2.0,
+  "mean_realism_output": 2.0,
+  "mean_same_pose_any": 10.0
+ }
+}

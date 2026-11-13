@@ -1,0 +1,19 @@
+{
+ "M095_P1040": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4534708559513092,
+  "render_face_width_frac": 0.44125595688819885,
+  "face_center_offset_real_minus_render": [
+   -0.0024925172328948975,
+   -0.01079246774315834
+  ],
+  "mouth_corr": 0.9698329931851393,
+  "best_lag": 0,
+  "best_corr": 0.9698329931851393
+ }
+}

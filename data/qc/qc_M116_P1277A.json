@@ -1,0 +1,19 @@
+{
+ "M116_P1277A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4885031133890152,
+  "render_face_width_frac": 0.4763002246618271,
+  "face_center_offset_real_minus_render": [
+   0.00048554688692092896,
+   -0.014613419771194458
+  ],
+  "mouth_corr": 0.9708493120144459,
+  "best_lag": 0,
+  "best_corr": 0.9708493120144459
+ }
+}

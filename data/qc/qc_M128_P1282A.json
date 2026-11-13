@@ -1,0 +1,19 @@
+{
+ "M128_P1282A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.46116938441991806,
+  "render_face_width_frac": 0.45515234768390656,
+  "face_center_offset_real_minus_render": [
+   0.00012542307376861572,
+   -0.004075340926647186
+  ],
+  "mouth_corr": 0.9509401552637716,
+  "best_lag": 0,
+  "best_corr": 0.9509401552637716
+ }
+}

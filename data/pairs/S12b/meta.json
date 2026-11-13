@@ -1,0 +1,20 @@
+{
+ "id": "S12b",
+ "identity": "P1281A",
+ "source": "seamless",
+ "file_id": "V00_S2089_I00001165_P1281A",
+ "src_video": "$SEAMLESS_ROOT/improvised/dev/video/V00_S2089_I00001165_P1281A.mp4",
+ "src_start_s": 38.0,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_in_540x960": [
+  107,
+  16,
+  360,
+  360
+ ],
+ "face_frac": 0.501,
+ "face_inside": 1.0,
+ "origin": "earlier stage seed (render at 540x960, upscaled crop)"
+}

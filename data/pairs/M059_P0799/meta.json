@@ -1,0 +1,49 @@
+{
+ "id": "M059_P0799",
+ "identity": "P0799",
+ "source": "seamless",
+ "file_id": "V00_S0644_I00000582_P0799",
+ "src_video": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0644_I00000582_P0799.mp4",
+ "src_start_frame": 930,
+ "src_start_s": 31.0,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_src_1080x1920": [
+  358,
+  247,
+  418,
+  418
+ ],
+ "track_ctx_src": [
+  606,
+  1076,
+  264,
+  121
+ ],
+ "crop_in_ctx": [
+  94,
+  126,
+  418
+ ],
+ "speech_frac": 0.9,
+ "frontal_frac": 1.0,
+ "origin": "render2real scale: tracked on native-res context crop, Blender renders only the crop window at 384",
+ "qc": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4769269973039627,
+  "render_face_width_frac": 0.49073904007673264,
+  "face_center_offset_real_minus_render": [
+   0.0072929747402668,
+   -0.014258041977882385
+  ],
+  "mouth_corr": 0.8814925427775425,
+  "best_lag": 0,
+  "best_corr": 0.8814925427775425
+ }
+}

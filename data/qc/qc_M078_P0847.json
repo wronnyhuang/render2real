@@ -1,0 +1,19 @@
+{
+ "M078_P0847": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.47918273508548737,
+  "render_face_width_frac": 0.4694657176733017,
+  "face_center_offset_real_minus_render": [
+   0.001551792025566101,
+   -0.009593889117240906
+  ],
+  "mouth_corr": 0.9302772647149343,
+  "best_lag": 0,
+  "best_corr": 0.9302772647149343
+ }
+}

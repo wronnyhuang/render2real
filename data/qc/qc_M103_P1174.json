@@ -1,0 +1,19 @@
+{
+ "M103_P1174": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4562913775444031,
+  "render_face_width_frac": 0.44881123304367065,
+  "face_center_offset_real_minus_render": [
+   -0.002342410385608673,
+   -0.016046937555074692
+  ],
+  "mouth_corr": 0.9815078035325705,
+  "best_lag": 0,
+  "best_corr": 0.9815078035325705
+ }
+}

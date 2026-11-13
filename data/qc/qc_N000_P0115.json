@@ -1,0 +1,38 @@
+{
+ "N000_P0115": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.5115565210580826,
+  "mouth_corr": 0.9374937272315832,
+  "best_lag": 0,
+  "best_corr": 0.9374937272315832
+ },
+ "S01a": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4960368424654007,
+  "mouth_corr": 0.9203092385694377,
+  "best_lag": 0,
+  "best_corr": 0.9203092385694377
+ },
+ "S04a": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.5014634430408478,
+  "mouth_corr": 0.6172220101094719,
+  "best_lag": -1,
+  "best_corr": 0.6356847811295825
+ }
+}

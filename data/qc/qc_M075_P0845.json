@@ -1,0 +1,19 @@
+{
+ "M075_P0845": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.4707035422325134,
+  "render_face_width_frac": 0.47089650481939316,
+  "face_center_offset_real_minus_render": [
+   -0.0018254071474075317,
+   -0.006711103022098541
+  ],
+  "mouth_corr": 0.9503522517347657,
+  "best_lag": 0,
+  "best_corr": 0.9503522517347657
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "S08a",
+ "identity": "P0845",
+ "source": "seamless",
+ "file_id": "V00_S0692_I00000487_P0845",
+ "src_video": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0692_I00000487_P0845.mp4",
+ "src_start_s": 155.5,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_in_540x960": [
+  83,
+  0,
+  366,
+  366
+ ],
+ "face_frac": 0.5,
+ "face_inside": 0.963,
+ "origin": "earlier stage seed (render at 540x960, upscaled crop)"
+}

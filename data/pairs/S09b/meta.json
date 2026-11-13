@@ -1,0 +1,20 @@
+{
+ "id": "S09b",
+ "identity": "P0844A",
+ "source": "seamless",
+ "file_id": "V00_S0700_I00000307_P0844A",
+ "src_video": "$SEAMLESS_ROOT/improvised/dev/video/V00_S0700_I00000307_P0844A.mp4",
+ "src_start_s": 97.5,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_in_540x960": [
+  75,
+  19,
+  394,
+  394
+ ],
+ "face_frac": 0.5,
+ "face_inside": 1.0,
+ "origin": "earlier stage seed (render at 540x960, upscaled crop)"
+}

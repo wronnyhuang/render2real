@@ -1,0 +1,49 @@
+{
+ "id": "M037_P0485",
+ "identity": "P0485",
+ "source": "seamless",
+ "file_id": "V00_S0360_I00000372_P0485",
+ "src_video": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0360_I00000372_P0485.mp4",
+ "src_start_frame": 3345,
+ "src_start_s": 111.5,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_src_1080x1920": [
+  344,
+  252,
+  402,
+  402
+ ],
+ "track_ctx_src": [
+  582,
+  1034,
+  254,
+  131
+ ],
+ "crop_in_ctx": [
+  90,
+  121,
+  402
+ ],
+ "speech_frac": 0.93,
+ "frontal_frac": 0.99,
+ "origin": "render2real scale: tracked on native-res context crop, Blender renders only the crop window at 384",
+ "qc": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.45366308093070984,
+  "render_face_width_frac": 0.42606309056282043,
+  "face_center_offset_real_minus_render": [
+   0.005409739911556244,
+   -0.0037842392921447754
+  ],
+  "mouth_corr": 0.8950965960494557,
+  "best_lag": 0,
+  "best_corr": 0.8950965960494557
+ }
+}

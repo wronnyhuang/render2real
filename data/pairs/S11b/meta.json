@@ -1,0 +1,20 @@
+{
+ "id": "S11b",
+ "identity": "P0731",
+ "source": "seamless",
+ "file_id": "V00_S1061_I00000165_P0731",
+ "src_video": "$SEAMLESS_ROOT/improvised/dev/video/V00_S1061_I00000165_P0731.mp4",
+ "src_start_s": 89.0,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_in_540x960": [
+  89,
+  8,
+  358,
+  358
+ ],
+ "face_frac": 0.502,
+ "face_inside": 1.0,
+ "origin": "earlier stage seed (render at 540x960, upscaled crop)"
+}

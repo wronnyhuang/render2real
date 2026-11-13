@@ -1,0 +1,19 @@
+{
+ "M000_P0115": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.5115565210580826,
+  "render_face_width_frac": 0.5038474500179291,
+  "face_center_offset_real_minus_render": [
+   -0.0031324252486228943,
+   -0.01246156170964241
+  ],
+  "mouth_corr": 0.9608434972638262,
+  "best_lag": 0,
+  "best_corr": 0.9608434972638262
+ }
+}

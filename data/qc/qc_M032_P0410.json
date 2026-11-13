@@ -1,0 +1,19 @@
+{
+ "M032_P0410": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.004166666666666667,
+  "face_inside": 1.0,
+  "face_width_frac": 0.48108114302158356,
+  "render_face_width_frac": 0.47897089272737503,
+  "face_center_offset_real_minus_render": [
+   0.0011671669781208038,
+   -0.009160090237855911
+  ],
+  "mouth_corr": 0.9063049582277416,
+  "best_lag": 0,
+  "best_corr": 0.9063049582277416
+ }
+}

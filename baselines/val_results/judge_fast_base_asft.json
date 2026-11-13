@@ -1,0 +1,270 @@
+{
+ "track": "fast",
+ "variant": "base_asft",
+ "model": "sonnet",
+ "made": "2026-11-13 00:16:12",
+ "clips": {
+  "M015_P0350": {
+   "clip": "M015_P0350",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 1,
+     "same_pose": 2,
+     "same_pose_any": 2,
+     "reason": "A is a smooth 3D render but has shaded facial detail. B is a blown-out, false-color blob with no visible face, so its pose and mouth barely match A."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 1,
+     "same_pose": null,
+     "same_pose_any": 3,
+     "reason": "A is a blown-out, false-colour image with almost no facial detail. B is a clearly CG 3D character, but it has readable skin, eyes and a talking mouth. B shows only loose pose and mouth correspondence to A, because A's face is barely visible."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 1,
+    "real": 10,
+    "render": 2,
+    "reason": "X: Saturated false-color, blown-out blob with a barely visible face, not real footage. Y: A real woman with natural skin texture, hair, lighting and mouth movement, which looks like camera footage. Z: A low-poly 3D render with flat shading and a cartoon look."
+   },
+   "split": "train"
+  },
+  "M039_P0566": {
+   "clip": "M039_P0566",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": 6,
+     "same_pose_any": 6,
+     "reason": "Both are CG-looking bald heads; A is a clean 3D render, B is a blurry, oversaturated version with similar head poses but weaker mouth and expression detail."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 7,
+     "reason": "Both are CG-looking bald heads; A is a blown-out, glowing, outlined stylization that reads like a video-filtered image, while B is a clean untextured 3D render with flat gray background. B's head poses match A's across the frames, but its mouth and eye details differ (e.g., B's eyes are closed in frame 3 and winking in frame 5, where A's are open)."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 2,
+    "output": 1,
+    "real": 10,
+    "reason": "X is a smooth, untextured 3D-rendered head with a gray backdrop. Y is a blown-out, neon-blue stylized version of the same head with glowing outlines. Z shows a real older man with natural skin texture, wrinkles, camera noise and a natural shirt."
+   },
+   "split": "train"
+  },
+  "M060_P0801": {
+   "clip": "M060_P0801",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": 3,
+     "same_pose_any": 3,
+     "reason": "A is a low-poly 3D render with natural skin tones. B is a false-color, heat-map-style image that looks even less like camera footage. B roughly follows A's head position but loses most of the eye and mouth detail, and only frame 5 has a clearly open mouth."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 4,
+     "reason": "A is a false-color thermal-style edge map of a face and B is a clearly rendered 3D avatar. Neither looks like real footage, but B has natural skin tones and lighting. B only loosely follows A's mouth opening in frame 5 and its expressions differ elsewhere."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "output",
+     "render"
+    ],
+    "real": 9,
+    "output": 2,
+    "render": 2,
+    "reason": "X: Natural skin texture, detailed hair, real expressions and compression artifacts look like a real camera recording. Y: Heat-map or thermal-style false colors on a flat, mask-like face, so it is clearly processed and not natural camera footage. Z: Low-poly 3D avatar with flat shading and a helmet-like hair shape, clearly CG."
+   },
+   "split": "train"
+  },
+  "M085_P0947": {
+   "clip": "M085_P0947",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": 4,
+     "same_pose_any": 4,
+     "reason": "A is a clearly CG cartoon character; B is a false-color, edge-like image with glowing red eyes and mouth, not camera footage. B's head position loosely matches A, but its mouth and eye shapes only partly follow A's."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "A is a neon edge-filtered render; B is a clearly CG cartoon character. B is slightly more natural but neither looks real. B roughly matches A's head pose and mouth openings."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 9,
+    "render": 1,
+    "output": 1,
+    "reason": "X: natural skin texture, lighting, and expressions look like real camera footage of a person. Y: a flat-shaded 3D cartoon avatar with a simple mouth and no real texture. Z: a neon false-color edge map with glowing eyes and mouth, so it is not a camera image."
+   },
+   "split": "train"
+  },
+  "M104_P1275A": {
+   "clip": "M104_P1275A",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": 6,
+     "same_pose_any": 6,
+     "reason": "A is a clean 3D render with natural skin tones. B has extreme color distortion (blue background, glowing red and white face) and looks like a thermal or false-color filter. Pose and blink timing roughly match, but B's mouth shapes are less distinct."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 6,
+     "reason": "Both are CG/stylized; A is a color-distorted thermal-looking render, B is a clean but obviously 3D game-like model. B has slightly more natural skin and eyes. Poses roughly match, including the blink in frame 3, but mouth shapes differ somewhat."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 2,
+    "output": 1,
+    "real": 10,
+    "reason": "X is a clearly rendered 3D avatar with smooth shading and blocky hair. Y is a heavily color-distorted, glowing, artifact-ridden stylized rendering. Z shows a real older woman with natural skin detail, wrinkles, hair and knit fabric, and natural expressions, so it looks like real camera footage."
+   },
+   "split": "train"
+  },
+  "M129_P1346A": {
+   "clip": "M129_P1346A",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "Both are CG characters. A is a clean low-poly render with natural skin tones. B has the same head poses but is oversaturated and blurry, with a distorted orange and blue look."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": null,
+     "same_pose_any": 9,
+     "reason": "Both are obvious CG renders; B has more natural skin tones and shading, while A is a heavily oversaturated, thermal-looking version. Head pose and mouth match closely frame by frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 9,
+    "render": 1,
+    "output": 1,
+    "reason": "X shows a real man with natural skin texture, stubble and expressions, so it looks like camera footage. Y is an obvious low-poly 3D render with a cartoon face. Z is a distorted, oversaturated, color-shifted version of the same CG figure."
+   },
+   "split": "train"
+  }
+ },
+ "summary": {
+  "clips": 6,
+  "trials": 12,
+  "output_win_rate": 0.083,
+  "output_win_ci95_wilson": [
+   0.015,
+   0.354
+  ],
+  "output_win_rate_clipmean": 0.083,
+  "output_win_ci95_bootstrap_clips": [
+   0.0,
+   0.25
+  ],
+  "order_consistency": 0.833,
+  "mean_realism_render": 2.33,
+  "mean_realism_output": 1.33,
+  "mean_same_pose_any": 5.25,
+  "three_way_mean_render": 1.67,
+  "three_way_mean_output": 1.17,
+  "three_way_mean_real": 9.5,
+  "three_way_n": 6
+ },
+ "summary_heldout": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ },
+ "summary_drive": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ }
+}

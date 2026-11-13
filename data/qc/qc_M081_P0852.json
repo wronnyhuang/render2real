@@ -1,0 +1,19 @@
+{
+ "M081_P0852": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.5015667751431465,
+  "render_face_width_frac": 0.48116742074489594,
+  "face_center_offset_real_minus_render": [
+   -0.005199160426855087,
+   -0.008057042956352234
+  ],
+  "mouth_corr": 0.8192523140342234,
+  "best_lag": 0,
+  "best_corr": 0.8192523140342234
+ }
+}

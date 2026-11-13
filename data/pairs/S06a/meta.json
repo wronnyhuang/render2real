@@ -1,0 +1,20 @@
+{
+ "id": "S06a",
+ "identity": "P0467",
+ "source": "seamless",
+ "file_id": "V00_S0554_I00000126_P0467",
+ "src_video": "$SEAMLESS_ROOT/naturalistic/dev/video/V00_S0554_I00000126_P0467.mp4",
+ "src_start_s": 18.0,
+ "frames": 240,
+ "fps": 30,
+ "size": 384,
+ "crop_in_540x960": [
+  108,
+  27,
+  322,
+  322
+ ],
+ "face_frac": 0.501,
+ "face_inside": 0.996,
+ "origin": "earlier stage seed (render at 540x960, upscaled crop)"
+}

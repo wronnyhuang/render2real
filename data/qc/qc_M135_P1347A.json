@@ -1,0 +1,19 @@
+{
+ "M135_P1347A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.48658236861228943,
+  "render_face_width_frac": 0.4779646247625351,
+  "face_center_offset_real_minus_render": [
+   -0.0028381943702697754,
+   -0.011957254260778427
+  ],
+  "mouth_corr": 0.9389387525333127,
+  "best_lag": 0,
+  "best_corr": 0.9389387525333127
+ }
+}

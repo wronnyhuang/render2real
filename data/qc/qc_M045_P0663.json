@@ -1,0 +1,19 @@
+{
+ "M045_P0663": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.49590517580509186,
+  "render_face_width_frac": 0.48631542921066284,
+  "face_center_offset_real_minus_render": [
+   -0.003613866865634918,
+   -0.015128515660762787
+  ],
+  "mouth_corr": 0.9548487992085924,
+  "best_lag": 0,
+  "best_corr": 0.9548487992085924
+ }
+}

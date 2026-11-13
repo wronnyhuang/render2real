@@ -1,0 +1,19 @@
+{
+ "M104_P1275A": {
+  "frames_real": 240,
+  "frames_render": 240,
+  "cov_real": 1.0,
+  "cov_render": 1.0,
+  "second_face_real": 0.0,
+  "face_inside": 1.0,
+  "face_width_frac": 0.44184018671512604,
+  "render_face_width_frac": 0.4268675297498703,
+  "face_center_offset_real_minus_render": [
+   -0.003449186682701111,
+   -0.0003573000431060791
+  ],
+  "mouth_corr": 0.9593387162903966,
+  "best_lag": 0,
+  "best_corr": 0.9593387162903966
+ }
+}

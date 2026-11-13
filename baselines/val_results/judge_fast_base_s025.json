@@ -1,0 +1,270 @@
+{
+ "track": "fast",
+ "variant": "base_s025",
+ "model": "sonnet",
+ "made": "2026-11-13 00:16:09",
+ "clips": {
+  "M015_P0350": {
+   "clip": "M015_P0350",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG avatars with flat-shaded clothes and a gray backdrop. B has slightly smoother, more natural skin and eye detail. B closely matches A's head pose and mouth shapes frame by frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 8,
+     "reason": "Both are obvious CG avatars on a gray background; A has smoother, slightly more natural face shading, while B looks rougher and more distorted. B matches A's pose and mouth shapes closely frame by frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "output",
+     "real",
+     "render"
+    ],
+    "output": 2,
+    "real": 9,
+    "render": 2,
+    "reason": "X and Z are clearly 3D-rendered avatars with a smooth, plastic look, a flat helmet-like hair shape, and a flat red torso. Z has slightly more skin texture but is still obviously CG. Y shows a real woman with natural skin texture, camera noise, and natural expressions."
+   },
+   "split": "train"
+  },
+  "M039_P0566": {
+   "clip": "M039_P0566",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 7,
+     "same_pose_any": 7,
+     "reason": "Both are obvious CG renders of a bald figure; B has slightly smoother shading and a more natural collar, so it is marginally more real. Head pose and mouth shapes match A closely, but eye and brow details differ in some frames."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 3,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 7,
+     "reason": "Both are obvious CG bald 3D characters; B has slightly more skin texture, but it also shows mesh tears at the collar and a flat-shaded look. Head pose and mouth match A in most frames, but B's eyes are closed or winking in frames 3 and 5 where A's are open."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 2,
+    "output": 3,
+    "real": 9,
+    "reason": "X: flat-shaded low-poly CG avatar with painted brows and a jagged neck. Y: smoother CG render but still a plastic-looking bald avatar. Z: real elderly man with natural skin texture, pores, and a realistic shirt and lighting."
+   },
+   "split": "train"
+  },
+  "M060_P0801": {
+   "clip": "M060_P0801",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG avatars; B has softer shading and slightly more natural skin and hair, so it looks a bit less flat. Pose, expression and mouth shape match closely frame by frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 9,
+     "reason": "Both are obvious 3D renders with a flat grey background. A has slightly smoother, more natural skin shading, while B has blockier hair and flatter texture. B matches A's pose and mouth shape closely in every frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "output",
+     "render"
+    ],
+    "real": 9,
+    "output": 2,
+    "render": 1,
+    "reason": "X shows a real person with natural skin texture, individual hair strands, and natural expressions, so it looks like a camera recording. Y is a smooth 3D-rendered avatar with plastic skin and a helmet-like hair shell. Z is the same type of render but cruder, with flat low-poly hair and visible geometry artifacts."
+   },
+   "split": "train"
+  },
+  "M085_P0947": {
+   "clip": "M085_P0947",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG cartoon characters; B has slightly softer, more photographic skin shading but is still obviously rendered."
+    },
+    {
+     "order": "output/render",
+     "chose": "render",
+     "output_wins": false,
+     "realism_render": 2,
+     "realism_output": 1,
+     "same_pose": null,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG cartoon characters; B has slightly richer shading and skin texture, and its pose and mouth shapes closely follow A."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 10,
+    "render": 2,
+    "output": 2,
+    "reason": "X: real person with natural skin texture, piercings and fabric detail. Y: a clearly CG character with flat shading, a cartoon mustache and a blocky neck. Z: the same CG style, slightly softer and smoother but still obviously a render."
+   },
+   "split": "train"
+  },
+  "M104_P1275A": {
+   "clip": "M104_P1275A",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG avatars; B has slightly smoother shading and more detailed skin and eyes, and it matches A's pose, blink and mouth shapes closely in every frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 2,
+     "same_pose": null,
+     "same_pose_any": 9,
+     "reason": "Both are clearly CG renders of a red-haired figure on grey; A has slightly smoother, more refined skin and eyes, while B is blotchier with rougher geometry. Pose, blink and mouth shapes match closely frame by frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "render",
+     "output",
+     "real"
+    ],
+    "render": 1,
+    "output": 2,
+    "real": 9,
+    "reason": "X is a flat-shaded low-poly CG avatar with blocky hair. Y is a smoother CG render but still clearly synthetic. Z shows a real woman with natural skin texture, wrinkles, and hair and knit detail, so it looks like camera footage."
+   },
+   "split": "train"
+  },
+  "M129_P1346A": {
+   "clip": "M129_P1346A",
+   "pairwise": [
+    {
+     "order": "render/output",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": 8,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG avatars with patchy beard textures; B is slightly smoother and more photoreal in skin shading, and it closely tracks A's head pose and mouth shapes frame by frame."
+    },
+    {
+     "order": "output/render",
+     "chose": "output",
+     "output_wins": true,
+     "realism_render": 2,
+     "realism_output": 3,
+     "same_pose": null,
+     "same_pose_any": 8,
+     "reason": "Both are clearly CG avatars; A has smoother skin shading, while B has jagged spiky beard patches that look more artificial. Pose, expression and mouth shape match closely frame by frame."
+    }
+   ],
+   "three_way": {
+    "order": [
+     "real",
+     "render",
+     "output"
+    ],
+    "real": 9,
+    "render": 1,
+    "output": 2,
+    "reason": "X shows a real man, with natural skin texture, stubble and expressions. Y is an obvious low-poly CG avatar with jagged beard patches. Z is also a CG avatar but slightly smoother and more photoreal than Y."
+   },
+   "split": "train"
+  }
+ },
+ "summary": {
+  "clips": 6,
+  "trials": 12,
+  "output_win_rate": 0.833,
+  "output_win_ci95_wilson": [
+   0.552,
+   0.953
+  ],
+  "output_win_rate_clipmean": 0.833,
+  "output_win_ci95_bootstrap_clips": [
+   0.667,
+   1.0
+  ],
+  "order_consistency": 0.667,
+  "mean_realism_render": 2.08,
+  "mean_realism_output": 2.5,
+  "mean_same_pose_any": 8.0,
+  "three_way_mean_render": 1.5,
+  "three_way_mean_output": 2.17,
+  "three_way_mean_real": 9.17,
+  "three_way_n": 6
+ },
+ "summary_heldout": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ },
+ "summary_drive": {
+  "clips": 0,
+  "trials": 0,
+  "output_win_rate": null,
+  "output_win_ci95_wilson": [
+   null,
+   null
+  ]
+ }
+}
